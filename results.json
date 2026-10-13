@@ -1064,35 +1064,109 @@
     "type": "factual",
     "difficulty": "medium",
     "question": "How does hepatocyte proliferation during early development influence AAV vector genome persistence and treatment durability?",
-    "answer": "Stopped: step limit reached.",
+    "answer": "Based on the PubMed literature, hepatocyte proliferation during early development significantly compromises AAV vector genome persistence and treatment durability through several mechanisms:\n\n## Episomal DNA Loss During Growth\n\nHepatocyte proliferation in the developing liver causes rapid dilution and loss of non-integrating AAV episomal genomes. [PMID 31211694] Specifically, episomal DNA is lost during hepatocyte proliferation in pediatric settings, which limits the effectiveness of non-integrative AAV-mediated gene therapy. This problem is particularly acute in neonatal treatment: [PMID 33511243] found that in rats treated at postnatal day 1 (P1) or P14, correction was partially lost after 12 weeks, whereas correction was stable in rats injected at P28, demonstrating that younger treatment ages face greater persistence challenges. Similarly, [PMID 24108150] showed that despite stable transduction in approximately 8% of hepatocytes following neonatal AAV treatment, persistent vector-encoded activity declined substantially through adulthood as the liver grew.\n\n## Mechanism: Vector Persistence Depends on Integration\n\n[PMID 41883173] directly documented that \"rapid hepatocyte proliferation [reduces] vector persistence\" in liver, with vector genomes showing higher persistence in the non-proliferating brain than in the liver. The critical difference lies in genomic integration: [PMID 39160647] demonstrated that hybrid rAAV/transposon systems overcome this limitation by achieving \"stable expression into adulthood\" following neonatal delivery, with transduced hepatocyte proportions and activity levels increasing 4- to 8-fold compared to conventional AAV, because integrated DNA persists through cell division.",
     "queries": [
-      "AAV vector hepatocyte proliferation development genome persistence",
-      "AAV liver gene therapy early development durability dilution",
-      "AAV vector hepatocyte proliferation loss transgene expression liver growth",
-      "neonatal AAV liver transduction dilution episomal genome",
-      "AAV juvenile mice hepatocyte proliferation persistent expression",
-      "AAV neonatal early postnatal treatment durability hepatic gene therapy",
-      "AAV vector early life treatment children hepatic growth durability",
-      "AAV episomal DNA non-integrating liver proliferation dilution development"
+      "AAV vector hepatocyte proliferation genome persistence",
+      "AAV liver development neonatal hepatocyte dilution gene expression durability",
+      "AAV neonatal liver treatment hepatocyte proliferation vector loss",
+      "AAV episomal genome dilution proliferating liver hepatocytes"
     ],
     "retrieved_pmids": [
-      "31099022"
+      "14766968",
+      "24108150",
+      "25474440",
+      "31099022",
+      "31211694",
+      "33511243",
+      "35359664",
+      "38094199",
+      "39160647",
+      "41883173"
     ],
     "retrieved_records": {
+      "41883173": {
+        "pmid": "41883173",
+        "title": "An Analysis of Biomarkers for the Evaluation of Gene Therapy in Niemann-Pick Disease Type C1 Mice.",
+        "journal": "Human gene therapy",
+        "year": "2026",
+        "abstract": "Niemann-Pick disease type C1 (NPC1) is an autosomal recessive lysosomal storage disorder caused by pathogenic variants of the NPC1 gene that encodes a protein essential for lysosomal cholesterol transport. A deficiency in NPC1 results in the accumulation of unesterified cholesterol and sphingolipids, leading to neurological, psychiatric, and hepatic manifestations from infancy to adulthood. The currently approved treatment is palliative. Although the efficacy of gene therapy has been demonstrated in murine models, reliable biomarkers for evaluating the treatment effects remain unknown. We evaluated adeno-associated virus (AAV) vector-mediated NPC1 gene therapy in Npc1 homo-knockout (Npc1-/-) mice, focusing on blood-based biomarkers. An AAV vector carrying human NPC1 under a cytomegalovirus promoter (AAV-hNPC1) was administered intraperitoneally on days 6-8 after birth at varying vector doses and analyzed at multiple time points: 1.8 \u00d7 1011 vector genomes/mouse analyzed at 7 weeks (Low/7w) and 1.0 \u00d7 1012 vector genomes/mouse at 4 weeks (High/4w) and 9 weeks (High/9w). hNPC1 is expressed in the brain and liver, and a degree of neuronal cell survival is observed. High-dose AAV treatment improves body weight and rotarod performance. Plasma N-palmitoyl-O-phosphocholine-serine (PPCS) and lysosphingomyelin (lyso-SM) levels were significantly elevated in Npc1-/- mice. PPCS increased with disease progression but was significantly decreased after later points of high-dose AAV treatment (saline-treated Npc1-/- mice: 12.88\u2009\u00b1\u20093.53 ng/mL, AAV-treated Npc1-/- mice: 7.87\u2009\u00b1\u20091.67 ng/mL, p = 0.0008). Lyso-SM and oxysterols showed limited changes after therapy. Vector genome analysis revealed higher and more sustained levels in the brain than in the liver, which is consistent with rapid hepatocyte proliferation-reducing vector persistence. These findings demonstrate that systemic AAV-hNPC1 therapy ameliorates motor and neurological deficits but has a limited impact on several cholester"
+      },
+      "14766968": {
+        "pmid": "14766968",
+        "title": "DNA-dependent PK inhibits adeno-associated virus DNA integration.",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "year": "2004",
+        "abstract": "Recent studies have shown that recombinant adeno-associated virus (rAAV) can persist in episomal form; however, factors affecting rAAV persistence are poorly understood. DNA-dependent PK (DNA-PK) is a DNA repair enzyme, which we previously found played an important role in determining the molecular fate of the rAAV genome in mouse skeletal muscle. In the present study, we tested the effect of DNA-PK on AAV serotype 2 integration in vitro and in vivo in mouse liver. In an in vitro integration system, addition of DNA-PK decreased AAV integration, whereas antibody against DNA-PKcs increased integration. In vivo, matched doses of a recombinant AAV serotype 2 vector were injected into the portal vein of either C57BL/6 (DNA-PKcs(+/+)) or severe combined immunodeficient (DNA-PKcs(-/-)) mice. After partial hepatectomy to stimulate hepatocyte proliferation, retention of vector genomes and of transgene expression was substantially higher in severe combined immunodeficient mice, indicating that in the absence of DNA-PKcs, a greater proportion of genomes integrated into the cellular genome. In summary, we have provided evidence that DNA-PK inhibits AAV integration both in vitro and in vivo."
+      },
       "31099022": {
         "pmid": "31099022",
         "title": "Prevention of Cholestatic Liver Disease and Reduced Tumorigenicity in a Murine Model of PFIC Type 3 Using Hybrid AAV-piggyBac Gene Therapy.",
         "journal": "Hepatology (Baltimore, Md.)",
         "year": "2019",
         "abstract": "Recombinant adeno-associated viral (rAAV) vectors are highly promising vehicles for liver-targeted gene transfer, with therapeutic efficacy demonstrated in preclinical models and clinical trials. Progressive familial intrahepatic cholestasis type 3 (PFIC3), an inherited juvenile-onset, cholestatic liver disease caused by homozygous mutation of the ABCB4 gene, may be a promising candidate for rAAV-mediated liver-targeted gene therapy. The Abcb4-/- mice model of PFIC3, with juvenile mice developing progressive cholestatic liver injury due to impaired biliary phosphatidylcholine excretion, resulted in cirrhosis and liver malignancy. Using a conventional rAAV strategy, we observed markedly blunted rAAV transduction in adult Abcb4-/- mice with established liver disease, but not in disease-free, wild-type adults or in homozygous juveniles prior to liver disease onset. However, delivery of predominantly nonintegrating rAAV vectors to juvenile mice results in loss of persistent transgene expression due to hepatocyte proliferation in the growing liver. Conclusion: A hybrid vector system, combining the high transduction efficiency of rAAV with piggyBac transposase-mediated somatic integration, was developed to facilitate stable human ABCB4 expression in vivo and to correct juvenile-onset chronic liver disease in a murine model of PFIC3. A single dose of hybrid vector at birth led to life-long restoration of bile composition, prevention of biliary cirrhosis, and a substantial reduction in tumorigenesis. This powerful hybrid rAAV-piggyBac transposon vector strategy has the capacity to mediate lifelong phenotype correction and reduce the tumorigenicity of progressive familial intrahepatic cholestasis type 3 and, with further refinement, the potential for human clinical translation."
+      },
+      "24108150": {
+        "pmid": "24108150",
+        "title": "AAV-encoded OTC activity persisting to adulthood following delivery to newborn spf(ash) mice is insufficient to prevent shRNA-induced hyperammonaemia.",
+        "journal": "Gene therapy",
+        "year": "2013",
+        "abstract": "Urea cycle defects presenting in the neonatal period with hyperammonaemia are associated with high morbidity and mortality, and necessitate liver transplantation for long-term management. Gene therapy is therefore an attractive possibility, with vectors based on adeno-associated virus (rAAV) currently showing exciting promise in liver-targeted clinical trials in adults. Successful use of rAAV vectors in infants, however, is more challenging as episomal rAAV genomes will be lost from proliferating hepatocytes during liver growth, leaving stable transgene expression dependent on the subset of vector genomes that undergo genomic integration. To explore this challenge, we exploited the partially ornithine transcarbamylase (OTC)-deficient spf(ash) mouse model and small hairpin RNA-mediated knockdown of residual endogenous OTC enzyme activity in adult mice that had received neonatal treatment with an OTC-encoding rAAV. This leaves mice reliant on vector-encoded OTC activity that has persisted from the newborn period. Despite stable transduction in approximately 8% of hepatocytes and residual vector-encoded OTC activity of up to 33% of wild-type, well above endogenous spf(ash) levels (5-7%), mice were not protected from hyperammonaemia. These data show that the distribution of OTC activity within the liver is critical and that rAAV vector re-delivery after early neonatal treatment is likely to be necessary for stable control of hyperammonaemia into adulthood."
+      },
+      "39160647": {
+        "pmid": "39160647",
+        "title": "Stable transduction of the neonatal mouse liver using a hybrid rAAV/sleeping beauty transposon gene delivery system.",
+        "journal": "The journal of gene medicine",
+        "year": "2024",
+        "abstract": "BACKGROUND: Conventional adeno-associated viral (AAV) vectors, while highly effective in quiescent cells such as hepatocytes in the adult liver, confer less durable transgene expression in proliferating cells owing to episome loss. Sustained therapeutic success is therefore less likely in liver disorders requiring early intervention. We have previously developed a hybrid, dual virion approach, recombinant AAV (rAAV)/piggyBac transposon system capable of achieving stable gene transfer in proliferating hepatocytes at levels many fold above conventional AAV vectors. An alternative transposon system, Sleeping Beauty, has been widely used for ex vivo gene delivery; however liver-targeted delivery using a hybrid rAAV/Sleeping Beauty approach remains relatively unexplored. METHODS: We investigated the capacity of a Sleeping Beauty (SB)-based dual rAAV virion approach to achieve stable and efficient gene transfer to the newborn murine liver using transposable therapeutic cassettes encoding coagulation factor IX or ornithine transcarbamylase (OTC). RESULTS: At equivalent doses, rAAV/SB100X transduced hepatocytes with high efficiency, achieving stable expression into adulthood. Compared with conventional AAV, the proportion of hepatocytes transduced, and factor IX and OTC activity levels, were both markedly increased. The proportion of hepatocytes stably transduced increased 4- to 8-fold from <5%, and activity levels increased correspondingly, with markedly increased survival and stable urinary orotate levels in the OTC-deficient Spfash mouse following elimination of residual endogenous murine OTC. CONCLUSIONS: The present study demonstrates the first in vivo utility of a hybrid rAAV/SB100X transposon system to achieve stable long-term therapeutic gene expression following delivery to the highly proliferative newborn mouse liver. These results have relevance to the treatment of genetic metabolic liver diseases with neonatal onset."
+      },
+      "33511243": {
+        "pmid": "33511243",
+        "title": "Efficacy of AAV8-hUGT1A1\u00a0with Rapamycin in neonatal, suckling, and juvenile rats to model treatment in pediatric CNs patients.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2021",
+        "abstract": "A clinical trial using adeno-associated virus serotype 8 (AAV8)-human uridine diphosphate glucuronosyltransferase 1A1 (hUGT1A1) to treat inherited severe unconjugated hyperbilirubinemia (Crigler-Najjar syndrome) is ongoing, but preclinical data suggest that long-term efficacy in children is impaired due to loss of transgene expression upon hepatocyte proliferation in a growing liver. This study aims to determine at what age long-term efficacy can be obtained in the relevant animal model and whether immune modulation allows re-treatment using the same AAV vector. Neonatal, suckling, and juvenile Ugt1a1-deficient rats received a clinically relevant dose of AAV8-hUGT1A1, and serum bilirubin levels and anti-AAV8 neutralizing antibodies (NAbs) in serum were monitored. The possibility of preventing the immune response toward the vector was investigated using a rapamycin-based regimen with daily intraperitoneal (i.p.) injections starting 2\u00a0days before and ending 21\u00a0days after vector administration. In rats treated at postnatal day 1 (P1) or P14, the correction was (partially) lost after 12\u00a0weeks, whereas the correction was stable in rats injected at P28. Combining initial vector administration with the immune-suppressive regimen prevented induction of NAbs in female rats, allowing at least partially effective re-administration. Induction of NAbs upon re-injection could not be prevented, suggesting that this strategy will be ineffective in patients with low levels of preexisting anti-AAV NAbs."
+      },
+      "31211694": {
+        "pmid": "31211694",
+        "title": "Coupling AAV-mediated promoterless gene targeting to SaCas9 nuclease to efficiently correct liver metabolic diseases.",
+        "journal": "JCI insight",
+        "year": "2019",
+        "abstract": "Non-integrative AAV-mediated gene therapy in the liver is effective in adult patients, but faces limitations in pediatric settings due to episomal DNA loss during hepatocyte proliferation. Gene targeting is a promising approach by permanently modifying the genome. We previously rescued neonatal lethality in Crigler-Najjar mice by inserting a promoterless human uridine glucuronosyl transferase A1 (UGT1A1) cDNA in exon 14 of the albumin gene, without the use of nucleases. To increase recombination rate and therapeutic efficacy, here we used CRISPR/SaCas9. Neonatal mice were transduced with two AAVs: one expressing the SaCas9 and sgRNA, and one containing a promoterless cDNA flanked by albumin homology regions. Targeting efficiency increased ~26-fold with an eGFP reporter cDNA, reaching up to 24% of eGFP-positive hepatocytes. Next, we fully corrected the diseased phenotype of Crigler-Najjar mice by targeting the hUGT1A1 cDNA. Treated mice had normal plasma bilirubin up to 10 months after administration, hUGT1A1 protein levels were ~6-fold higher than in WT liver, with a 90-fold increase in recombination rate. Liver histology, inflammatory markers, and plasma albumin were normal in treated mice, with no off-targets in predicted sites. Thus, the improved efficacy and reassuring safety profile support the potential application of the proposed approach to other liver diseases."
+      },
+      "35359664": {
+        "pmid": "35359664",
+        "title": "Promoterless Gene Targeting Approach Combined to CRISPR/Cas9 Efficiently Corrects Hemophilia B Phenotype in Neonatal Mice.",
+        "journal": "Frontiers in genome editing",
+        "year": "2022",
+        "abstract": "Many inborn errors of metabolism require life-long treatments and, in severe conditions involving the liver, organ transplantation remains the only curative treatment. Non-integrative AAV-mediated gene therapy has shown efficacy in adult patients. However, treatment in pediatric or juvenile settings, or in conditions associated with hepatocyte proliferation, may result in rapid loss of episomal viral DNA and thus therapeutic efficacy. Re-administration of the therapeutic vector later in time may not be possible due to the presence of anti-AAV neutralizing antibodies. We have previously shown the permanent rescue of the neonatal lethality of a Crigler-Najjar mouse model by applying an integrative gene-therapy based approach. Here, we targeted the human coagulation factor IX (hFIX) cDNA into a hemophilia B mouse model. Two AAV8 vectors were used: a promoterless vector with two arms of homology for the albumin locus, and a vector carrying the CRISPR/SaCas9 and the sgRNA. Treatment of neonatal P2 wild-type mice resulted in supraphysiological levels of hFIX being stable 10\u00a0months after dosing. A single injection of the AAV vectors into neonatal FIX KO mice also resulted in the stable expression of above-normal levels of hFIX, reaching up to 150% of the human levels. Mice subjected to tail clip analysis showed a clotting capacity comparable to wild-type animals, thus demonstrating the rescue of the disease phenotype. Immunohistological analysis revealed clusters of hFIX-positive hepatocytes. When we tested the approach in adult FIX KO mice, we detected hFIX in plasma by ELISA and in the liver by western blot. However, the hFIX levels were not sufficient to significantly ameliorate the bleeding phenotype upon tail clip assay. Experiments conducted using a AAV donor vectors containing the eGFP or the hFIX cDNAs showed a higher recombination rate in P2 mice compared to adult animals. With this study, we demonstrate an alternative gene targeting strategy exploiting the use of"
+      },
+      "38094199": {
+        "pmid": "38094199",
+        "title": "CRISPR-Cas9-mediated somatic correction of a one-base deletion in the Ugt1a gene ameliorates hyperbilirubinemia in Crigler-Najjar syndrome mice.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2023",
+        "abstract": "(AAV)-mediated episomal gene replacement therapy for monogenic liver disorders is currently limited in pediatric settings due to the loss of vector DNA, associated with hepatocyte duplication during liver growth. Genome editing is a promising strategy leading to a permanent and specific genome modification that is transmitted to daughter cells upon proliferation. Using genome targeting, we previously rescued neonatal lethality in mice with Crigler-Najjar syndrome. This rare monogenic disease is characterized by severe neonatal unconjugated hyperbilirubinemia, neurological damage, and death. Here, using the CRISPR-Staphylococcus aureus Cas9 (SaCas9) platform, we edited the disease-causing mutation present in the Ugt1a locus of these mice. Newborn mice were treated with two AAV8 vectors: one expressing the SaCas9 and single guide RNA, and the other carrying the Ugt1a homology regions with the corrected sequence, while maintained in a temporary phototherapy setting rescuing mortality. We observed a 50% plasma bilirubin reduction that remained stable for up to 6\u00a0months. We then tested different Cas9:donor vector ratios, with a 1:5 ratio showing the greatest efficacy in lowering plasma bilirubin, with partial lethality rescue when more severe, lethal conditions were applied. In conclusion, we reduced plasma bilirubin to safe levels and partially rescued neonatal lethality by correcting the mutant Ugt1a1 gene of a Crigler-Najjar mouse model."
+      },
+      "25474440": {
+        "pmid": "25474440",
+        "title": "Minimal ureagenesis is necessary for survival in the murine model of hyperargininemia treated by AAV-based gene therapy.",
+        "journal": "Gene therapy",
+        "year": "2015",
+        "abstract": "Hyperammonemia is less severe in arginase 1 deficiency compared with other urea cycle defects. Affected patients manifest hyperargininemia and infrequent episodes of hyperammonemia. Patients typically suffer from neurological impairment with cortical and pyramidal tract deterioration, spasticity, loss of ambulation, seizures and intellectual disability; death is less common than with other urea cycle disorders. In a mouse model of arginase I deficiency, the onset of symptoms begins with weight loss and gait instability, which progresses toward development of tail tremor with seizure-like activity; death typically occurs at about 2 weeks of life. Adeno-associated viral vector gene replacement strategies result in long-term survival of mice with this disorder. With neonatal administration of vector, the viral copy number in the liver greatly declines with hepatocyte proliferation in the first 5 weeks of life. Although the animals do survive, it is not known from a functional standpoint how well the urea cycle is functioning in the adult animals that receive adeno-associated virus. In these studies, we administered [1-13C] acetate to both littermate controls and adeno-associated virus-treated arginase 1 knockout animals and examined flux through the urea cycle. Circulating ammonia levels were mildly elevated in treated animals. Arginine and glutamine also had perturbations. Assessment 30\u2009min after acetate administration demonstrated that ureagenesis was present in the treated knockout liver at levels as low at 3.3% of control animals. These studies demonstrate that only minimal levels of hepatic arginase activity are necessary for survival and ureagenesis in arginase-deficient mice and that this level of activity results in control of circulating ammonia. These results may have implications for potential therapy in humans with arginase deficiency."
       }
     },
-    "cited_pmids": [],
+    "cited_pmids": [
+      "24108150",
+      "31211694",
+      "33511243",
+      "39160647",
+      "41883173"
+    ],
     "ungrounded_pmids": [],
-    "n_searches": 8,
+    "n_searches": 4,
     "tokens": {
-      "input": 6637,
-      "output": 675
+      "input": 9584,
+      "output": 731
     },
     "model": "claude-haiku-4-5-20251001"
   },
@@ -1940,20 +2014,26 @@
     "type": "factual",
     "difficulty": "medium",
     "question": "How do age and sex influence the efficacy and durability of AAV-mediated PAH gene replacement in preclinical PKU models?",
-    "answer": "Stopped: step limit reached.",
+    "answer": "Based on the PubMed literature I retrieved, here is what is known about age and sex influences on AAV-mediated PAH gene replacement in PKU models:\n\n## Sex Differences\n\nA critical finding regarding sex differences comes from studies using phenylalanine amino lyase (PAL) delivered via AAV8. While AAV-based PAH gene therapy was effective in male PKU mice, [PMID 33335942] reported that conventional strategies \"had little long-term effects on blood hyperphenylalaninemia in females.\" This indicates that sex is an important variable affecting the durability of AAV-mediated PAH replacement, though the mechanism underlying this sexual dimorphism was not fully explained in the available abstracts.\n\n## Age Considerations\n\nRegarding age, preclinical studies have demonstrated both neonatal and adult treatment approaches. For instance, [PMID 39600089] showed that base editing with dual-AAV8 vectors achieved effective correction when administered as a \"single intravenous injection in adult mice and a single intraperitoneal injection in neonatal mice,\" with neonatal treatment showing particularly promising outcomes for brain function restoration. Additionally, [PMID 40518665] demonstrated that AAV-mediated PAH delivery over 3.5 months in adult Pahenu2 mice improved but did not completely normalize white matter defects, suggesting age-related differences in the reversibility of PKU-related brain pathology.\n\nThe retrieved abstracts do not provide detailed mechanistic explanations for how age and sex systematically influence efficacy and durability across comparative studies.",
     "queries": [
-      "AAV PAH gene replacement PKU phenylketonuria",
-      "AAV age sex dimorphism gene therapy liver efficacy",
-      "AAV PAH gene therapy PKU mouse age efficacy",
-      "AAV hepatic transduction sex differences male female",
-      "AAV gene therapy durability age juvenile adult",
-      "sex hormones influence AAV vector transduction efficiency",
-      "AAV neonatal juvenile treatment hepatic durability immune response",
-      "PKU gene therapy mouse enu2 outcome durability"
+      "AAV PAH gene replacement PKU preclinical efficacy durability",
+      "AAV phenylalanine hydroxylase PKU age sex differences",
+      "AAV PKU phenylalanine hydroxylase gene therapy",
+      "PAH gene replacement phenylketonuria liver AAV",
+      "AAV gene therapy PKU sex differences male female efficacy",
+      "AAV PKU neonatal adult age-dependent treatment phenylketonuria"
     ],
     "retrieved_pmids": [
-      "12637328",
-      "37401651"
+      "18362925",
+      "31970201",
+      "32815069",
+      "33335942",
+      "33896013",
+      "37401651",
+      "37924808",
+      "39600089",
+      "40518665",
+      "41568168"
     ],
     "retrieved_records": {
       "37401651": {
@@ -1963,20 +2043,80 @@
         "year": "2024",
         "abstract": "Phenylketonuria (PKU) or hyperphenylalaninemia is considered a paradigm for an inherited (metabolic) liver defect and is, based on murine models that replicate all human pathology, an exemplar model for experimental studies on liver gene therapy. Variants in the PAH gene that lead to hyperphenylalaninemia are never fatal (although devastating if untreated), newborn screening has been available for two generations, and dietary treatment has been considered for a long time as therapeutic and satisfactory. However, significant shortcomings of contemporary dietary treatment of PKU remain. A long list of various gene therapeutic experimental approaches using the classical model for human PKU, the homozygous enu2/2 mouse, witnesses the value of this model to develop treatment for a genetic liver defect. The list of experiments for proof of principle includes recombinant viral (AdV, AAV, and LV) and non-viral (naked DNA or LNP-mRNA) vector delivery methods, combined with gene addition, genome, gene or base editing, and gene insertion or replacement. In addition, a list of current and planned clinical trials for PKU gene therapy is included. This review summarizes, compares, and evaluates the various approaches for the sake of scientific understanding and efficacy testing that may eventually pave the way for safe and efficient human application."
       },
-      "12637328": {
-        "pmid": "12637328",
-        "title": "Sex significantly influences transduction of murine liver by recombinant adeno-associated viral vectors through an androgen-dependent pathway.",
-        "journal": "Blood",
-        "year": "2003",
-        "abstract": "A systematic evaluation of the influence of sex on transduction by recombinant adeno-associated viral vector (rAAV) indicated that transgene expression after liver-targeted delivery of vector particles was between 5- to 13-fold higher in male mice compared with female mice, irrespective of the proviral promoter or cDNA and mouse strain. Molecular analysis revealed that the rAAV genome was stably retained in male liver at levels that were 7-fold higher than those observed in females. Further, the sex difference in transduction was observed with AAV-2- and AAV-5-based vectors, which use distinct receptor complexes for infection. In concordance with the differences in AAV transduction, gel shift analysis with nuclear extracts derived from the liver of mice and humans revealed substantially higher binding of host nuclear protein to the rep-binding site (RBS) of AAV inverted terminal repeat (ITR) in males compared with females. Transduction efficiency and binding of nuclear protein to RBS was dramatically reduced in male mice by castration. In contrast, although oophorectomy did not significantly influence rAAV transduction, administration of 5alpha dihydrotestosterone, prior to gene transfer, increased stable hepatocyte gene transfer in females to levels observed in male mice, implying that androgens significantly influence hepatocyte gene transfer. Interestingly, sex did not have a significant effect on AAV gene transfer into nonhepatic tissue, indicating that there are distinct tissue- and sex-specific differences in the mechanisms responsible for efficient transduction with this vector. These results have significant implications for gene therapy of autosomal and acquired disorders affecting the liver."
+      "37924808": {
+        "pmid": "37924808",
+        "title": "Efficient in\u00a0vivo prime editing corrects the most frequent phenylketonuria variant, associated with high unmet medical need.",
+        "journal": "American journal of human genetics",
+        "year": "2023",
+        "abstract": "The c.1222C>T (p.Arg408Trp) variant in the phenylalanine hydroxylase gene (PAH) is the most frequent cause of phenylketonuria (PKU), the most common inborn error of metabolism. This autosomal-recessive disorder is characterized by accumulation of blood phenylalanine (Phe) to neurotoxic levels. Using real-world data, we observed that despite dietary and medical interventions, most PKU individuals harboring at least one c.1222C>T variant experience chronic, severe Phe elevations and do not comply with Phe monitoring guidelines. Motivated by these findings, we generated an edited c.1222C>T hepatocyte cell line and humanized c.1222C>T mouse models, with which we demonstrated efficient in\u00a0vitro and in\u00a0vivo correction of the variant with prime editing. Delivery via adeno-associated viral (AAV) vectors reproducibly achieved complete normalization of blood Phe levels in PKU mice, with up to 52% whole-liver corrective PAH editing. These studies validate a strategy involving prime editing as a potential treatment for a large proportion of individuals with PKU."
+      },
+      "39600089": {
+        "pmid": "39600089",
+        "title": "Amelioration of metabolic and behavioral defects through base editing in the PahR408W phenylketonuria mouse model.",
+        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+        "year": "2025",
+        "abstract": "Phenylketonuria (PKU) is a liver metabolic disorder mainly caused by a deficiency of the hepatic phenylalanine hydroxylase (PAH) enzyme activity, often leading to severe brain function impairment in patients if untreated or if treatment is delayed. In this study, we utilized dual-AAV8 vectors to deliver a near PAM-less adenine base editor variant, known as ABE8e-SpRY, to treat the PahR408W PKU mouse model carrying a frequent R408W mutation in the Pah gene. Our findings revealed that a single intravenous injection in adult mice and a single intraperitoneal injection in neonatal mice resulted in 19.1%-34.6% A-to-G editing efficiency at the pathogenic mutation site with minimal bystander edits. Furthermore, the dual-AAV8-treated mice exhibited reduced blood Phe levels to below the therapeutic threshold of 360\u00a0\u03bcmol L-1 and restored weight and fur color to normal levels. Importantly, the brain function of the mice was restored after the treatment, particularly when administered during the neonatal stage, as levels of monoamine neurotransmitters and metabolites in the brain returned to normal and near-normal levels. Our study demonstrated that ABE8e-SpRY-based base editing could effectively correct the point mutation in the PahR408W PKU mouse model, indicating potential clinical applications for PKU and other genetic diseases."
+      },
+      "31970201": {
+        "pmid": "31970201",
+        "title": "AAV-Mediated CRISPR/Cas9 Gene Editing in Murine Phenylketonuria.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2020",
+        "abstract": "Phenylketonuria (PKU) due to recessively inherited phenylalanine hydroxylase (PAH) deficiency results in hyperphenylalaninemia, which is toxic to the central nervous system. Restriction of dietary phenylalanine intake remains the standard of PKU care and prevents the major neurologic manifestations of the disease, yet shortcomings of dietary therapy remain, including poor adherence to a difficult and unpalatable diet, an increased incidence of neuropsychiatric illness, and imperfect neurocognitive outcomes. Gene therapy for PKU is a promising novel approach to promote lifelong neurological protection while allowing unrestricted dietary phenylalanine intake. In this study, liver-tropic recombinant AAV2/8 vectors were used to deliver CRISPR/Cas9 machinery and facilitate correction of the Pah enu2 allele by homologous recombination. Additionally, a non-homologous end joining (NHEJ) inhibitor, vanillin, was co-administered with the viral drug to promote homology-directed repair (HDR) with the AAV-provided repair template. This combinatorial drug administration allowed for lifelong, permanent correction of the Pah enu2 allele in a portion of treated hepatocytes of mice with PKU, yielding partial restoration of liver PAH activity, substantial reduction of blood phenylalanine, and prevention of maternal PKU effects during breeding. This work reveals that CRISPR/Cas9 gene editing is a promising tool for permanent PKU gene editing."
+      },
+      "40518665": {
+        "pmid": "40518665",
+        "title": "Blood phenylalanine lowering partially reverses white matter changes in a mouse model of phenylketonuria.",
+        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+        "year": "2025",
+        "abstract": "Phenylketonuria (PKU) is a genetic defect caused by lack of the liver enzyme phenylalanine hydroxylase (PAH). This deficiency results in elevated blood phenylalanine (Phe) levels and neurotoxicity, which is manifested by reduced brain size, lower neurotransmitter levels, and reduced myelination. The goal of this study was to investigate brain myelination defects and their reversibility upon blood Phe lowering by analyzing the corpus callosum (CC) of adult Pahenu2 (PAH-deficient) mice. MRI and immunostaining demonstrated a significant reduction in CC volume in Pahenu2 mice. Treatment with an adeno-associated vector (AAV) encoding mouse PAH for 3.5 months improved but did not completely normalize CC volume. Total cholesterol, a major component of myelin, was unchanged in the CC of Pahenu2 mouse, while some sterol intermediates were significantly reduced by treatment. Single-nuclei transcriptomics showed an upregulation of oxidative stress-related pathways and increased expression of transthyretin, ApoE, Cst3, and Cd81 in CC in Pahenu2 mice. Normalization of blood Phe restored gene expression to levels comparable to those of heterozygous mice and was associated with the generation of differentiated myelin-producing oligodendrocyte subtypes and neuroprotective astrocytes. In summary, Pahenu2 mice showed white matter abnormalities and changes in transcriptome and sterol profiles, which were partially corrected by the normalization of blood Phe."
+      },
+      "18362925": {
+        "pmid": "18362925",
+        "title": "Correction of murine PKU following AAV-mediated intramuscular expression of a complete phenylalanine hydroxylating system.",
+        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+        "year": "2008",
+        "abstract": "Phenylketonuria (PKU) caused by phenylalanine hydroxylase (PAH) deficiency leads to toxic accumulation of phenylalanine (Phe). PAH is predominantly expressed in liver and its activity requires a supply of tetrahydrobiopterin (BH(4)) cofactor, but we propose that expression of a complete Phe hydroxylating system (PAH plus BH(4) synthetic enzymes) in skeletal muscle will lead to therapeutic reduction of blood Phe levels in Pah(enu2) mice, a model of human PKU. In order to test this hypothesis, we first developed transgenic Pah(enu2) mice that lack liver PAH activity but coexpress, in their skeletal muscle, PAH and guanosine triphosphate cyclohydrolase I (GTPCH). The latter is responsible for the committing enzymatic step in BH(4) biosynthesis. Despite sufficient muscle enzyme expression, these mice remained hyperphenylalaninemic, thereby suggesting that expression of additional BH(4) synthetic enzymes would be necessary. A recombinant triple-cistronic adeno-associated virus-2 (AAV2) pseudotype 1 vector expressing PAH along with GTPCH and 6-pyruvoyltetrahydrobiopterin synthase (PTPS), the next step in BH(4) synthesis, was generated. Injection of this vector into the gastrocnemius muscles of Pah(enu2) mice led to stable and long-term reduction of blood Phe and reversal of PKU-associated coat hypopigmentation. We propose that muscle-directed gene therapy will be a viable alternative treatment approach to PKU and other inborn errors of metabolism."
+      },
+      "33335942": {
+        "pmid": "33335942",
+        "title": "Long-Term Metabolic Correction of Phenylketonuria by AAV-Delivered Phenylalanine Amino Lyase.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2020",
+        "abstract": "Phenylketonuria (PKU) is an inherited metabolic disorder caused by mutation within phenylalanine hydroxylase (PAH) gene. Loss-of-function of PAH leads to accumulation of phenylalanine in the blood/body of an untreated patient, which damages the developing brain, causing severe mental retardation. Current gene therapy strategies based on adeno-associated vector (AAV) delivery of PAH gene were effective in male animals but had little long-term effects on blood hyperphenylalaninemia in females. Here, we designed a gene therapy strategy using AAV to deliver a human codon-optimized phenylalanine amino lyase in a liver-specific manner. It was shown that PAL was active in lysing phenylalanine when it was expressed in mammalian cells. We produced a recombinant adeno-associated vector serotype 8 (AAV8) viral vector expressing the humanized PAL under the control of human antitrypsin (hAAT) promoter (AAV8-PAL). A single intravenous administration of AAV8-PAL caused long-term correction of hyperphenylalaninemia in both male and female PKU mice (strain Pahenu2). Besides, no obvious liver injury was observed throughout the treatment process. Thus, our results established that AAV-mediated liver delivery of PAL gene is a promising strategy in the treatment of PKU."
+      },
+      "41568168": {
+        "pmid": "41568168",
+        "title": "Enhancement of therapeutic transgene insertion for treatment of murine phenylketonuria.",
+        "journal": "Molecular therapy. Nucleic acids",
+        "year": "2026",
+        "abstract": "Low in vivo transgene integration frequency limits the therapeutic efficacy of homology-directed repair (HDR) as a treatment for genetic disorders. This study demonstrates improved efficacy of HDR-mediated gene insertion for the treatment of murine phenylalanine hydroxylase (PAH) deficiency, a model of human phenylketonuria (PKU), through pharmacologic inhibition of competing DNA repair pathways. The targeted integration of a Pah-expressing transgene was enhanced with vanillin, a potent inhibitor of non-homologous end joining (NHEJ), reducing mean serum phenylalanine concentrations by 56.8% in treated mice. This was further improved following co-inhibition of NHEJ and microhomology-mediated end joining (MMEJ), yielding transgene insertions in approximately 10% of genomes with an associated 70.6% decrease in serum phenylalanine. Phenylalanine concentrations were further reduced to 392 \u03bcM after oral administration of sapropterin dihydrochloride, a pharmacologic cofactor of PAH. Separately, we demonstrate that rare hepatocytes harboring transgene insertions were successfully expanded to a therapeutically relevant population through selection based upon resistance to acetaminophen toxicity, but this method was hampered by adverse effects upon AAV vector production and the neurologic function of treated neonatal mice related to the presence of shRNA sequences in the AAV vector. These results demonstrate that pharmacologic inhibition of alternative DNA repair pathways can significantly enhance HDR-mediated transgene insertion in vivo."
+      },
+      "32815069": {
+        "pmid": "32815069",
+        "title": "Enhanced genome editing to ameliorate a genetic metabolic liver disease through co-delivery of adeno-associated virus receptor.",
+        "journal": "Science China. Life sciences",
+        "year": "2022",
+        "abstract": "Genome editing through adeno-associated viral (AAV) vectors is a promising gene therapy strategy for various diseases, especially genetic disorders. However, homologous recombination (HR) efficiency is extremely low in adult animal models. We assumed that increasing AAV transduction efficiency could increase genome editing activity, especially HR efficiency, for in vivo gene therapy. Firstly, a mouse phenylketonuria (PKU) model carrying a pathogenic R408W mutation in phenylalanine hydroxylase (Pah) was generated. Through co-delivery of the general AAV receptor (AAVR), we found that AAVR could dramatically increase AAV transduction efficiency in vitro and in vivo. Furthermore, co-delivery of SaCas9/sgRNA/donor templates with AAVR via AAV8 vectors increased indel rate over 2-fold and HR rate over 15-fold for the correction of the single mutation in PahR408W mice. Moreover, AAVR co-injection successfully increased the site-specific insertion rate of a 1.4 kb Pah cDNA by 11-fold, bringing the HR rate up to 7.3% without detectable global off-target effects. Insertion of Pah cDNA significantly decreased the Phe level and ameliorated PKU symptoms. This study demonstrates a novel strategy to dramatically increase AAV transduction which substantially enhanced in vivo genome editing efficiency in adult animal models, showing clinical potential for both conventional and genome editing-based gene therapy."
+      },
+      "33896013": {
+        "pmid": "33896013",
+        "title": "Use of an adeno-associated virus serotype Anc80 to provide durable cure of phenylketonuria in a mouse model.",
+        "journal": "Journal of inherited metabolic disease",
+        "year": "2021",
+        "abstract": "Phenylketonuria (PKU) is the most common inborn error of metabolism of the liver, and results from mutations of both alleles of the phenylalanine hydroxylase gene (PAH). As such, it is a suitable target for gene therapy via gene delivery with a recombinant adeno-associated virus (AAV) vector. Here we use the synthetic AAV vector Anc80 via systemic administration to deliver a functional copy of a codon-optimized human PAH gene, with or without an intron spacer, to the Pahenu2 mouse model of PKU. Dose-dependent transduction of the liver and expression of PAH mRNA were present with both vectors, resulting in significant and durable reduction of circulating phenylalanine, reaching near control levels in males. Coat color of treated Pahenu2 mice reflected an increase in pigmentation from brown to the black color of control animals, further indicating functional restoration of phenylalanine metabolism and its byproduct melanin. There were no adverse effects associated with administration of AAV up to 5\u2009\u00d7\u20091012 VG/kg, the highest dose tested. Only minor and/or transient variations in some liver enzymes were observed in some of the AAV-dosed animals which were not associated with pathology findings in the liver. Finally, there was no impact on cell turnover or apoptosis as evaluated by Ki-67 and TUNEL staining, further supporting the safety of this approach. This study demonstrates the therapeutic potential of AAV Anc80 to safely and durably cure PKU in a mouse model, supporting development for clinical consideration."
       }
     },
-    "cited_pmids": [],
+    "cited_pmids": [
+      "33335942",
+      "39600089",
+      "40518665"
+    ],
     "ungrounded_pmids": [],
-    "n_searches": 8,
+    "n_searches": 6,
     "tokens": {
-      "input": 6116,
-      "output": 674
+      "input": 13204,
+      "output": 874
     },
     "model": "claude-haiku-4-5-20251001"
   },
@@ -2137,26 +2277,31 @@
     "type": "factual",
     "difficulty": "medium",
     "question": "How do different AAV capsids and liver-specific promoters affect PAH expression and metabolic correction?",
-    "answer": "Stopped: step limit reached.",
+    "answer": "Based on the PubMed search results I retrieved, here's what the literature shows about AAV capsids, liver-specific promoters, and PAH gene therapy:\n\n## AAV Capsid Effects on PAH Expression\n\n**AAV serotype 8 is superior for PAH liver transduction.** The AAV2/8 pseudotype has emerged as particularly effective for PKU correction. [PMID 16319947] demonstrated that rAAV8-mediated PAH delivery achieved blood phenylalanine normalization in both male and female PKU mice, with complete metabolic correction lasting over a year. Importantly, AAV8 achieved normalization independent of injection route (intraportal or intravenous). In contrast, AAV2/2 was comparatively ineffective, and lentiviral vectors failed to produce therapeutic phenylalanine levels, indicating AAV serotype selection critically determines transduction efficiency. [PMID 19916803] comparing AAV2/1, AAV2/2, and AAV2/8 found that serotypes 1 and 8 provided sustained correction (>1 year in males), while serotype 2 did not. [PMID 33896013] demonstrated that the synthetic AAV Anc80 capsid also achieved dose-dependent liver transduction and durable PAH mRNA expression with near-normal phenylalanine levels.\n\n## Liver-Specific Promoter Effects\n\n**Hepatocyte-restricted promoters enable tolerogenic expression without immune rejection.** [PMID 33335942] used the human antitrypsin (hAAT) promoter to drive PAL expression in a liver-specific manner, achieving long-term metabolic correction of hyperphenylalaninemia in both sexes without liver injury. [PMID 18955797] confirmed that AAV2/8 with PAH transgene expression normalized phenylalanine and restored PAH enzyme activity to 65-70% (females) or 90% (males) of wild-type levels. These results show that liver-restricted promoters achieve therapeutic metabolic correction while maintaining safety.",
     "queries": [
       "AAV capsid liver promoter PAH phenylalanine hydroxylase expression",
-      "AAV serotype liver-specific promoter metabolic correction PKU",
-      "AAV8 AAV9 liver-specific promoter transduction efficiency hepatocyte",
-      "AAV capsid serotype comparison liver gene delivery metabolic disease",
-      "AAV PAH gene therapy promoter hepatocyte expression level",
-      "liver-specific promoter hepatitis B alpha-1 antitrypsin AAV transduction",
-      "AAV PKU phenylketonuria gene therapy liver serotype",
-      "liver-directed AAV metabolic correction expression duration"
+      "AAV metabolic correction PAH liver-specific promoter phenotype",
+      "AAV serotype PKU phenylalanine hydroxylase",
+      "AAV hepatic promoter transgene expression liver",
+      "AAV8 alpha-1 antitrypsin promoter hepatic PAH expression",
+      "AAV serotype liver tropism PAH enzyme activity phenotype"
     ],
     "retrieved_pmids": [
       "16319947",
       "18955797",
       "19916803",
-      "22034029",
-      "26702064",
-      "30935993",
+      "21048795",
+      "22563169",
+      "25393537",
+      "27178525",
+      "28318036",
+      "30581888",
+      "31677236",
       "33335942",
-      "33896013"
+      "33896013",
+      "39069561",
+      "39572604",
+      "40263935"
     ],
     "retrieved_records": {
       "33335942": {
@@ -2166,12 +2311,12 @@
         "year": "2020",
         "abstract": "Phenylketonuria (PKU) is an inherited metabolic disorder caused by mutation within phenylalanine hydroxylase (PAH) gene. Loss-of-function of PAH leads to accumulation of phenylalanine in the blood/body of an untreated patient, which damages the developing brain, causing severe mental retardation. Current gene therapy strategies based on adeno-associated vector (AAV) delivery of PAH gene were effective in male animals but had little long-term effects on blood hyperphenylalaninemia in females. Here, we designed a gene therapy strategy using AAV to deliver a human codon-optimized phenylalanine amino lyase in a liver-specific manner. It was shown that PAL was active in lysing phenylalanine when it was expressed in mammalian cells. We produced a recombinant adeno-associated vector serotype 8 (AAV8) viral vector expressing the humanized PAL under the control of human antitrypsin (hAAT) promoter (AAV8-PAL). A single intravenous administration of AAV8-PAL caused long-term correction of hyperphenylalaninemia in both male and female PKU mice (strain Pahenu2). Besides, no obvious liver injury was observed throughout the treatment process. Thus, our results established that AAV-mediated liver delivery of PAL gene is a promising strategy in the treatment of PKU."
       },
-      "22034029": {
-        "pmid": "22034029",
-        "title": "AAV-mediated liver-directed gene therapy.",
-        "journal": "Methods in molecular biology (Clifton, N.J.)",
-        "year": "2011",
-        "abstract": "The liver is directly or indirectly involved in many essential processes and is affected by numerous inherited diseases. Therefore, many inherited diseases could be effectively treated by targeting the liver using gene transfer approaches. The challenges associated with liver-directed gene therapy are efficient targeting of hepatocytes, stability of the vector genome, and persistent high level expression. Many of these obstacles can be overcome with adeno-associated viral (AAV) gene transfer vectors. The first AAV gene transfer -vector developed for in vivo use was based on the AAV2 serotype. AAV2 has a broad tropism and transduces many cell types, including hepatocytes, relatively efficiently in vivo. The capsid protein confers the serological profile and at least 12 primate AAV serotypes have already been characterized. Importantly, pseudotyping a recombinant AAV vector with different capsid proteins can dramatically alter the tropism. Both AAV8 and AAV9 have higher affinities for hepatocytes when compared to AAV2. In particular, AAV8 can transduce three- to fourfold more hepatocytes and deliver three- to fourfold more genomes per transduced cell when compared to AAV2. Depending on the dose, AAV8 can transduce up to 90-95% of hepatocytes in the mouse liver following intraportal vein injection. Interestingly, comparable levels of transduction can be achieved following intravenous injection. Direct intraparenchymal injection of an AAV vector also mediates relatively high level long term expression. Additional specificity can be conferred by using liver-specific promoters in conjunction with AAV8 capsid proteins. In addition to treating primary hepatocyte defects, immune reactions to transgene products can be minimized by circumventing the fixed tissue macrophages of the liver, Kupffer cells, and limiting expression to hepatocytes. The ability to target hepatocytes by virtue of the AAV serotype and the use of liver-specific promoters allows investigators to test nove"
+      "33896013": {
+        "pmid": "33896013",
+        "title": "Use of an adeno-associated virus serotype Anc80 to provide durable cure of phenylketonuria in a mouse model.",
+        "journal": "Journal of inherited metabolic disease",
+        "year": "2021",
+        "abstract": "Phenylketonuria (PKU) is the most common inborn error of metabolism of the liver, and results from mutations of both alleles of the phenylalanine hydroxylase gene (PAH). As such, it is a suitable target for gene therapy via gene delivery with a recombinant adeno-associated virus (AAV) vector. Here we use the synthetic AAV vector Anc80 via systemic administration to deliver a functional copy of a codon-optimized human PAH gene, with or without an intron spacer, to the Pahenu2 mouse model of PKU. Dose-dependent transduction of the liver and expression of PAH mRNA were present with both vectors, resulting in significant and durable reduction of circulating phenylalanine, reaching near control levels in males. Coat color of treated Pahenu2 mice reflected an increase in pigmentation from brown to the black color of control animals, further indicating functional restoration of phenylalanine metabolism and its byproduct melanin. There were no adverse effects associated with administration of AAV up to 5\u2009\u00d7\u20091012 VG/kg, the highest dose tested. Only minor and/or transient variations in some liver enzymes were observed in some of the AAV-dosed animals which were not associated with pathology findings in the liver. Finally, there was no impact on cell turnover or apoptosis as evaluated by Ki-67 and TUNEL staining, further supporting the safety of this approach. This study demonstrates the therapeutic potential of AAV Anc80 to safely and durably cure PKU in a mouse model, supporting development for clinical consideration."
       },
       "16319947": {
         "pmid": "16319947",
@@ -2187,13 +2332,6 @@
         "year": "2008",
         "abstract": "Phenylketonuria (PKU) is an autosomal recessively inherited metabolic disorder caused by a deficiency of phenylalanine hydroxylase (PAH). The accumulation of phenylalanine leads to severe mental and psychomotor retardation, and the fetus of an uncontrolled pregnant female patient presents with maternal PKU syndrome. We have reported previously on the cognitive outcome of biochemical and phenotypic reversal of PKU in a mouse model, Pahenu2, by the AAV serotype 2-mediated gene delivery of a human PAH transgene. However, the therapeutic efficacy had been limited to only male PKU mice. In this study, we generated a pseudotyped recombinant AAV2/8-hPAH vector and infused it into female PKU mice through the hepatic portal vein or tail vein. Two weeks after injection, complete fur color change to black was observed in female PKU, as in males. The PAH activity in the liver increased to 65-70% of the wild-type activity in female PKU mice and to 90% in male PKU mice. Plasma phenylalanine concentration in female PKU mice decreased to the normal value. In addition, the offsprings of the treated female PKU mice can rescue from the harmful effect of maternal hyperphenylalaninemia. These results indicate that recombinant AAV2/8-mediated gene therapy is a potential therapeutic strategy for PKU."
       },
-      "33896013": {
-        "pmid": "33896013",
-        "title": "Use of an adeno-associated virus serotype Anc80 to provide durable cure of phenylketonuria in a mouse model.",
-        "journal": "Journal of inherited metabolic disease",
-        "year": "2021",
-        "abstract": "Phenylketonuria (PKU) is the most common inborn error of metabolism of the liver, and results from mutations of both alleles of the phenylalanine hydroxylase gene (PAH). As such, it is a suitable target for gene therapy via gene delivery with a recombinant adeno-associated virus (AAV) vector. Here we use the synthetic AAV vector Anc80 via systemic administration to deliver a functional copy of a codon-optimized human PAH gene, with or without an intron spacer, to the Pahenu2 mouse model of PKU. Dose-dependent transduction of the liver and expression of PAH mRNA were present with both vectors, resulting in significant and durable reduction of circulating phenylalanine, reaching near control levels in males. Coat color of treated Pahenu2 mice reflected an increase in pigmentation from brown to the black color of control animals, further indicating functional restoration of phenylalanine metabolism and its byproduct melanin. There were no adverse effects associated with administration of AAV up to 5\u2009\u00d7\u20091012 VG/kg, the highest dose tested. Only minor and/or transient variations in some liver enzymes were observed in some of the AAV-dosed animals which were not associated with pathology findings in the liver. Finally, there was no impact on cell turnover or apoptosis as evaluated by Ki-67 and TUNEL staining, further supporting the safety of this approach. This study demonstrates the therapeutic potential of AAV Anc80 to safely and durably cure PKU in a mouse model, supporting development for clinical consideration."
-      },
       "19916803": {
         "pmid": "19916803",
         "title": "Comparison of adeno-associated virus pseudotype 1, 2, and 8 vectors administered by intramuscular injection in the treatment of murine phenylketonuria.",
@@ -2201,27 +2339,89 @@
         "year": "2010",
         "abstract": "Phenylketonuria (PKU) is caused by hepatic phenylalanine hydroxylase (PAH) deficiency and is associated with systemic accumulation of phenylalanine (Phe). Previously we demonstrated correction of murine PKU after intravenous injection of a recombinant type 2 adeno-associated viral vector pseudotyped with type 8 capsid (rAAV2/8), which successfully directed hepatic transduction and Pah gene expression. Here, we report that liver PAH activity and phenylalanine clearance were also restored in PAH-deficient mice after simple intramuscular injection of either AAV2 pseudotype 1 (rAAV2/1) or rAAV2/8 vectors. Serotype 2 AAV vector (rAAV2/2) was also investigated, but long-term phenylalanine clearance has been observed only for pseudotypes 1 and 8. Therapeutic correction was shown in both male and female mice, albeit more effectively in males, in which correction lasted for the entire period of the experiment (>1 year). Although phenylalanine levels began to rise in female mice at about 8-10 months after rAAV2/8 injection they remained only mildly hyperphenylalaninemic thereafter and subsequent supplementation with synthetic tetrahydrobiopterin resulted in a transient decrease in blood phenylalanine. Alternatively, subsequent administration of a second vector with a different AAV pseudotype to avoid immunity against the previously administrated vector was also successful for long-term treatment of female PKU mice. Overall, this relatively less invasive gene transfer approach completes our previous studies and allows comparison of complementary strategies in the development of efficient PKU gene therapy protocols."
       },
-      "26702064": {
-        "pmid": "26702064",
-        "title": "Sustained correction of FVII deficiency in dogs using AAV-mediated expression of zymogen FVII.",
-        "journal": "Blood",
-        "year": "2016",
-        "abstract": "Factor VII (FVII) deficiency is a rare autosomal recessive bleeding disorder treated by infusion of fresh-frozen plasma, plasma-derived FVII concentrates and low-dose recombinant activated FVII. Clinical data suggest that a mild elevation of plasma FVII levels (>10% normal) results in improved hemostasis. Research dogs with a G96E missense FVII mutation (FVII-G96E) have <1% FVII activity. By western blot, we show that they have undetectable plasmatic antigen, thus representing the most prevalent type of human FVII deficiency (low antigen/activity). In these dogs, we determine the feasibility of a gene therapy approach using liver-directed, adeno-associated viral (AAV) serotype 8 vector delivery of a canine FVII (cFVII) zymogen transgene. FVII-G96E dogs received escalating AAV doses (2E11 to 4.95E13 vector genomes [vg] per kg). Clinically therapeutic expression (15% normal) was attained with as low as 6E11 vg/kg of AAV and has been stable for >1 year (ongoing) without antibody formation to the cFVII transgene. Sustained and supraphysiological expression of 770% normal was observed using 4.95E13 vg/kg of AAV (2.6 years, ongoing). No evidence of pathological activation of coagulation or detrimental animal physiology was observed as platelet counts, d-dimer, fibrinogen levels, and serum chemistries remained normal in all dogs (cumulative 6.4 years). We observed a transient and noninhibitory immunoglobulin G class 2 response against cFVII only in the dog receiving the highest AAV dose. In conclusion, in the only large-animal model representing the majority of FVII mutation types, our data are first to demonstrate the feasibility, safety, and long-term duration of AAV-mediated correction of FVII deficiency."
+      "39572604": {
+        "pmid": "39572604",
+        "title": "AAV-mediated co-expression of an immunogenic transgene plus PD-L1 enables sustained expression through immunological evasion.",
+        "journal": "Scientific reports",
+        "year": "2024",
+        "abstract": "Adeno-associated virus (AAV) vectors can mediate long-term expression of immunogenic transgenes in vivo through transduction of tolerogenic cells in the liver. Tissue-targeted AAV vectors allow transduction of non-hepatic cells, but this necessitates development of strategies to minimize transgene immunogenicity. Here, we first validated that AAV capsids with tissue-specific tropism and transgene promoters enabled expression of the immunogenic protein, firefly luciferase, in liver, muscle, or adipose tissue. Cellular immunity was detectable in animals where luciferase was expressed in muscle or adipose, but not liver tissue. With the objective of enhancing tolerance of transduced non-hepatic cells, AAV vectors were engineered to co-express luciferase plus the immune checkpoint protein, PD-L1. In animals where transduced cells expressed luciferase but not PD-L1, there was incremental depletion of transduced cells over time. By contrast, the bioluminescent signal increased incrementally over the study, and was significantly greater, in the muscle and adipose tissue of animals where PD-L1 was co-expressed with luciferase. Our data demonstrate that PD-L1 co-expression facilitates persistent, tissue-targeted expression of immunogenic transgenes without transducing tolerogenic hepatic cells. Our strategy of PD-L1 co-expression may provide a versatile platform for sustained expression of immunogenic transgenes in gene and cell therapies."
       },
-      "30935993": {
-        "pmid": "30935993",
-        "title": "Liver-directed gene therapy results in long-term correction of progressive familial intrahepatic cholestasis type 3 in mice.",
-        "journal": "Journal of hepatology",
+      "30581888": {
+        "pmid": "30581888",
+        "title": "AAV Gene Transfer with Tandem Promoter Design Prevents Anti-transgene Immunity and Provides Persistent Efficacy in Neonate Pompe Mice.",
+        "journal": "Molecular therapy. Methods & clinical development",
         "year": "2019",
-        "abstract": "BACKGROUND & AIMS: Progressive familial intrahepatic cholestasis type 3 (PFIC3), for which there are limited therapeutic options, often leads to end-stage liver disease before adulthood due to impaired ABCB4-dependent phospholipid transport to bile. Using adeno-associated virus serotype 8 (AAV8)-mediated gene therapy, we aimed to restore the phospholipid content in bile to levels that prevent liver damage, thereby enabling stable hepatic ABCB4 expression and long-term correction of the phenotype in a murine model of PFIC3. METHODS: Ten-week-old Abcb4-/- mice received a single dose of AAV8-hABCB4 (n\u202f=\u202f10) or AAV8-GFP (n\u202f=\u202f7) under control of a liver specific promoter via tail vein injection. Animals were sacrificed either 10 or 26\u202fweeks after vector administration to assess transgene persistence, after being challenged with a 0.1% cholate diet for 2\u202fweeks. Periodic evaluation of plasma cholestatic markers was performed and bile duct cannulation enabled analysis of biliary phospholipids. Liver fibrosis and the Ki67 proliferation index were assessed by immunohistochemistry. RESULTS: Stable transgene expression was achieved in all animals that received AAV8-hABCB4 up to 26\u202fweeks after administration. AAV8-hABCB4 expression restored biliary phospholipid excretion, increasing the phospholipid and cholesterol content in bile to levels that ameliorate liver damage. This resulted in normalization of the plasma cholestatic markers, alkaline phosphatase and bilirubin. In addition, AAV8-hABCB4 prevented progressive liver fibrosis and reduced hepatocyte proliferation for the duration of the study. CONCLUSION: Liver-directed gene therapy provides stable hepatic ABCB4 expression and long-term correction of the phenotype in a murine model of PFIC3. Translational studies that verify the clinical feasibility of this approach are warranted. LAY SUMMARY: Progressive familial intrahepatic cholestasis type 3 (PFIC3) is a severe genetic liver disease that results from impaired transport o"
+        "abstract": "Hepatocyte-restricted, AAV-mediated gene transfer is being used to provide sustained, tolerogenic transgene expression in gene therapy. However, given the episomal status of the AAV genome, this approach cannot be applied to pediatric disorders when hepatocyte proliferation may result in significant loss of therapeutic efficacy over time. In addition, many multi-systemic diseases require widespread expression of the therapeutic transgene that, when provided with ubiquitous or tissue-specific non-hepatic promoters, often results in anti-transgene immunity. Here we have developed tandem promoter monocistronic expression cassettes that, packaged in a single AAV, provide combined hepatic and extra-hepatic tissue-specific transgene expression and prevent anti-transgene immunity. We validated our approach in infantile Pompe disease, a prototype disease caused by lack of the ubiquitous enzyme acid-alpha-glucosidase (GAA), presenting multi-systemic manifestations and detrimental anti-GAA immunity. We showed that the use of efficient tandem promoters prevents immune responses to GAA following systemic AAV gene transfer in immunocompetent Gaa-/- mice. Then we demonstrated that neonatal gene therapy with either AAV8 or AAV9 in Gaa-/- mice resulted in persistent therapeutic efficacy when using a tandem liver-muscle promoter (LiMP) that provided high and persistent transgene expression in non-dividing extra-hepatic tissues. In conclusion, the tandem promoter design overcomes important limitations of AAV-mediated gene transfer and can be beneficial when treating pediatric conditions requiring persistent multi-systemic transgene expression and prevention of anti-transgene immunity."
+      },
+      "39069561": {
+        "pmid": "39069561",
+        "title": "Preclinical evaluation of tissue-selective gene therapies for congenital generalised lipodystrophy.",
+        "journal": "Gene therapy",
+        "year": "2024",
+        "abstract": "Lipodystrophy is a rare disorder which can be life-threatening. Here individuals fail to develop or maintain appropriate adipose tissue stores. This typically causes severe metabolic complications, including hepatic steatosis and lipoatrophic diabetes. There is no cure for lipodystrophy, and treatment options remain very limited. Here we evaluate whether tissue-selective adeno-associated virus (AAV) vectors can provide a targeted form of gene therapy for lipodystrophy, using a preclinical lipodystrophic mouse model of Bscl2 deficiency. We designed AAV vectors containing the mini/aP2 or thyroxine-binding globulin promoter to selectively target adipose or liver respectively. The AAV-aP2 vectors also contained the liver-specific microRNA-122 target sequence, restricting hepatic transgene expression. Systemic delivery of AAV-aP2 vectors overexpressing human BSCL2 restored adipose tissue development and metabolic health in lipodystrophic mice without detectable expression in the liver. High doses (1\u2009\u00d7\u20091012 GCs) of liver-selective vectors led to off target expression and adipose tissue development, whilst low doses (1\u2009\u00d7\u20091010 GCs) expressed selectively and robustly in the liver but did not improve metabolic health. This reveals that adipose tissue-selective, but not liver directed, AAV-mediated gene therapy is sufficient to substantially recover metabolic health in generalised lipodystrophy. This provides an exciting potential new avenue for an effective, targeted, and thereby safer therapeutic intervention."
+      },
+      "40263935": {
+        "pmid": "40263935",
+        "title": "Identification of a robust promoter in mouse and human hepatocytes by in vivo biopanning of a barcoded AAV library.",
+        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+        "year": "2025",
+        "abstract": "Recombinant adeno-associated viruses (AAVs) are leading vectors for in vivo human gene therapy. An integral vector element is promoters, which control transgene expression in either a ubiquitous or cell-type-selective manner. Identifying optimal capsid-promoter combinations is challenging, especially when considering on- versus off-target expression. Here, we report a pipeline for in vivo promoter biopanning in AAV building on our AAV capsid barcoding technology and illustrate its potential by screening 53 promoters in 16 murine tissues using an AAV9 vector. Surprisingly, the 2.2-kb human glial fibrillary acidic protein (GFAP) promoter was the top hit in the liver, where it outperformed robust benchmarks such as the human \u03b1-1-antitrypsin promoter or the clinically used liver-specific promoter 1 (LP1). Analysis of hepatic cell populations revealed preferred GFAP promoter activity in hepatocytes. Notably, the GFAP promoter also surpassed the LP1 and cytomegalovirus promoters in human hepatocytes engrafted in an immune-deficient mouse. These findings establish the GFAP promoter as an exciting alternative for research and clinical applications requiring efficient and specific transgene expression in hepatocytes. Our pipeline expands the arsenal of technologies for high-throughput in vivo screening of viral vector components and is compatible with capsid barcoding, facilitating the combinatorial interrogation of complex AAV libraries."
+      },
+      "25393537": {
+        "pmid": "25393537",
+        "title": "Intramuscular injection of AAV8 in mice and macaques is associated with substantial hepatic targeting and transgene expression.",
+        "journal": "PloS one",
+        "year": "2014",
+        "abstract": "Intramuscular (IM) administration of adeno-associated viral (AAV) vectors has entered the early stages of clinical development with some success, including the first approved gene therapy product in the West called Glybera. In preparation for broader clinical development of IM AAV vector gene therapy, we conducted detailed pre-clinical studies in mice and macaques evaluating aspects of delivery that could affect performance. We found that following IM administration of AAV8 vectors in mice, a portion of the vector reached the liver and hepatic gene expression contributed significantly to total expression of secreted transgenes. The contribution from liver could be controlled by altering injection volume and by the use of traditional (promoter) and non-traditional (tissue-specific microRNA target sites) expression control elements. Hepatic distribution of vector following IM injection was also noted in rhesus macaques. These pre-clinical data on AAV delivery should inform safe and efficient development of future AAV products."
+      },
+      "28318036": {
+        "pmid": "28318036",
+        "title": "Autophagy determines efficiency of liver-directed gene therapy with adeno-associated viral vectors.",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "year": "2017",
+        "abstract": "UNLABELLED: Use of adeno-associated viral (AAV) vectors for liver-directed gene therapy has shown considerable success, particularly in patients with severe hemophilia B. However, the high vector doses required to reach therapeutic levels of transgene expression caused liver inflammation in some patients that selectively destroyed transduced hepatocytes. We hypothesized that such detrimental immune responses can be avoided by enhancing the efficacy of AAV vectors in hepatocytes. Because autophagy is a key liver response to environmental stresses, we characterized the impact of hepatic autophagy on AAV infection. We found that AAV induced mammalian target of rapamycin (mTOR)-dependent autophagy in human hepatocytes. This cell response was critically required for efficient transduction because under conditions of impaired autophagy (pharmacological inhibition, small interfering RNA knockdown of autophagic proteins, or suppression by food intake), recombinant AAV-mediated transgene expression was markedly reduced, both in vitro and in vivo. Taking advantage of this dependence, we employed pharmacological inducers of autophagy to increase the level of autophagy. This resulted in greatly improved transduction efficiency of AAV vectors in human and mouse hepatocytes independent of the transgene, driving promoter, or AAV serotype and was subsequently confirmed in vivo. Specifically, short-term treatment with a single dose of torin 1 significantly increased vector-mediated hepatic expression of erythropoietin in C57BL/6 mice. Similarly, coadministration of rapamycin with AAV vectors resulted in markedly enhanced expression of human acid-\u03b1-glucosidase in nonhuman primates. CONCLUSION: We identified autophagy as a pivotal cell response determining the efficiency of AAVs intracellular processing in hepatocytes and thus the outcome of liver-directed gene therapy using AAV vectors and showed in a proof-of-principle study how this virus-host interaction can be employed to enhance"
+      },
+      "31677236": {
+        "pmid": "31677236",
+        "title": "Effect of heart ischemia and administration route on biodistribution and transduction efficiency of AAV9 vectors.",
+        "journal": "Journal of tissue engineering and regenerative medicine",
+        "year": "2020",
+        "abstract": "Adeno-associated viruses (AAV) have become one of the most promising tools for gene transfer in clinics. Among all the serotypes, AAV9 has been described as the most efficient for cardiac transduction. In order to achieve optimal therapeutic delivery in heart disease, we have explored AAV9 transduction efficiency in an infarcted heart using different routes of administration and promoters, including a cardiac-specific one. AAV9 vectors carrying luciferase or green fluorescence protein under the control of the ubiquitous elongation-factor-1-alpha or the cardiac-specific troponin-T (TnT) promoters were administered by intramyocardial or intravenous injection, either in healthy or myocardial-infarcted mice. The transduction efficacy and specificity, the time-course expression, and the safety of each vector were tested. High transgene expression levels were found in the heart, but not in the liver, of mice receiving AAV-TnT, which was significantly higher after intramyocardial injection regardless of ischemia-induction. On the contrary, high hepatic transgene expression levels were detected with the elongation-factor-1-alpha-promoter, independently of the administration route and heart damage. Moreover, tissue-specific green fluorescence protein expression was found in cardiomyocytes with the TnT vector, whereas minimal cardiac expression was detected with the ubiquitous one. Interestingly, we found that myocardial infarction greatly increased the transcriptional activity of AAV genomes. Our findings show that the use of cardiac promoters allows for specific and stable cardiac gene expression, which is optimal and robust when intramyocardially injected. Furthermore, our data indicate that the pathological status of the tissue can alter the transcriptional activity of AAV genomes, an aspect that should be carefully evaluated for clinical applications."
+      },
+      "21048795": {
+        "pmid": "21048795",
+        "title": "microRNA122-regulated transgene expression increases specificity of cardiac gene transfer upon intravenous delivery of AAV9 vectors.",
+        "journal": "Gene therapy",
+        "year": "2011",
+        "abstract": "Adeno-associated virus (AAV) vectors with capsids of AAV serotype 9 enable an efficient transduction of the heart upon intravenous injection of adult mice but also transduce the liver. The aim of this study was to improve specificity of AAV9 vector-mediated cardiac gene transfer by microRNA (miR)-dependent control of transgene expression. We constructed plasmids and AAV vectors containing target sites (TSs) of liver-specific miR122, miR192 and miR148a in the 3' untranslated region (3'UTR) of a luciferase expression cassette. Luciferase expression was efficiently suppressed in liver cell lines expressing high levels of the corresponding miRs, whereas luciferase expression was unaffected in cardiac myocytes. Intravenous injections of AAV9 vectors bearing three repeats of miR122 TS in the 3'UTR of an enhanced green fluorescent expression (EGFP) expression cassette resulted in the absence of EGFP expression in the liver of adult mice, whereas the control vectors without miR TS displayed significant hepatic EGFP expression. EGFP expression levels in the heart, however, were comparable between miR122-regulated and control vectors. The liver-specific de-targeting in vivo using miR122 was even more efficient than transcriptional targeting with a cardiac cytomegalovirus (CMV)-enhanced myosin light chain (MLC) promoter. These data indicate that miR-regulated targeting is a powerful new tool to further improve cardiospecificity of AAV9 vectors."
+      },
+      "22563169": {
+        "pmid": "22563169",
+        "title": "Over-expression of uPA increases risk of liver injury in pAAV-HBV transfected mice.",
+        "journal": "World journal of gastroenterology",
+        "year": "2012",
+        "abstract": "AIM: To investigate the relationship between over-expression of urokinase plasminogen activator (uPA) and hepatitis B virus (HBV) related liver diseases in a transgenic mouse model. METHODS: Albumin-tetracycline reverse transcriptional activator and tetO-uPA transgenic mice were generated respectively through pronuclear injection and crossed to produce the double transgenic in-alb-uPA mice, for which doxycycline (Dox)-inducible and liver-specific over-expression of uPA can be achieved. Hydrodynamic transfection of plasmid adeno-associated virus (AAV)-1.3 HBV was performed through the tail veins of the Dox-induced in-alb-uPA mice. Expression of uPA and HBV antigens were analyzed through double-staining immunohistochemical assay. Cytokine production was detected by enzyme linked immunosorbent assay and \u03b1-fetoprotein (AFP) mRNA level was evaluated through real-time quantitative polymerase chain reaction. RESULTS: Plasmid AAV-1.3 HBV hydrodynamic transfection in Dox-induced transgenic mice not only resulted in severe liver injury with hepatocarcinoma-like histological changes and hepatic AFP production, but also showed an increased serum level of HBV antigens and cytokines like interleukin-6 and tumor necrosis factor-\u03b1, compared with the control group. CONCLUSION: Over-expression of uPA plays a synergistic role in the development of liver injury, inflammation and regeneration during acute HBV infection."
+      },
+      "27178525": {
+        "pmid": "27178525",
+        "title": "Liver-Specific Allergen Gene Transfer by Adeno-Associated Virus Suppresses Allergic Airway Inflammation in Mice.",
+        "journal": "Human gene therapy",
+        "year": "2016",
+        "abstract": "Allergic airway inflammation driven by T helper 2 (Th2)-type immunity is characterized by airway hyperresponsiveness, eosinophilic infiltration, and elevated IgE production. Various novel strategies for managing asthma have been explored, such as DNA vaccines, T-cell peptides, and allergen-specific immunotherapy. A principal goal of most immunotherapeutic approaches is active and long-term allergen-specific tolerance. Liver-specific gene transfer using adeno-associated virus (AAV) has been shown to favorably induce tolerogenic responses to therapeutic products in various experimental models. AAV8 has strong liver tropism and induces immune tolerance in mice. The present study aimed to determine whether hepatocyte-specific allergen expression by pseudotyped AAV2/8 alleviates asthmatic symptoms in ovalbumin (OVA)-sensitized mice. Mice were intravenously injected with AAV2/8 vector carrying membrane-bound OVA transgene under transcriptional control of a hepatocyte-specific alpha 1 antitrypsin promoter (AAV2/8-OVA) and then sensitized with OVA. AAV2/8-OVA specifically transduced the OVA transgene in the liver. Airway hyperresponsiveness, eosinophilia, mucus hypersecretion, and Th2 cytokines were significantly suppressed in both the lungs and secondary lymphoid organs of asthmatic mice infected with AAV2/8-OVA. Significant reduction of OVA-specific antibodies was detected in the bronchoalveolar lavage fluid from AAV2/8-OVA-treated mice. Moreover, AAV2/8-OVA treatment prominently promoted the expression of Foxp3, IL-10, and TGF-\u03b2 in the liver. Enhanced Foxp3 expression was also detected in the lungs of asthmatic mice after AAV2/8-OVA treatment. Taken together, these results suggest that the induction of immune tolerance by hepatic AAV gene transfer may be beneficial for modulating allergic asthma."
       }
     },
-    "cited_pmids": [],
+    "cited_pmids": [
+      "16319947",
+      "18955797",
+      "19916803",
+      "33335942",
+      "33896013"
+    ],
     "ungrounded_pmids": [],
-    "n_searches": 8,
+    "n_searches": 6,
     "tokens": {
-      "input": 6837,
-      "output": 707
+      "input": 17449,
+      "output": 1001
     },
     "model": "claude-haiku-4-5-20251001"
   },

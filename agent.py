@@ -16,7 +16,7 @@ Rules:
 - Be concise: 1-3 short paragraphs."""
 
 MAX_SEARCHES = 8   # cap tool calls per question (prevents runaway loops and saves cost)
-MAX_STEPS = 4      # hard cap on model calls per question
+MAX_STEPS = 5      # hard cap on model calls per question
 
 
 def run_tool(name: str, args: dict) -> tuple[str, list[dict]]:
@@ -46,8 +46,13 @@ def answer(question: str, verbose: bool = True) -> dict:
     n_searches = 0
     tokens = {"input": 0, "output": 0}
 
-    for _ in range(MAX_STEPS):
-        resp = call_llm(messages, tools=[SEARCH_PUBMED_TOOL], system=SYSTEM_PROMPT)
+    for step in range(MAX_STEPS):
+        # On the last step, withhold the tools so the model must answer with
+        # what it has rather than searching again and returning nothing.
+        final_step = step == MAX_STEPS - 1
+        resp = call_llm(messages,
+                        tools=None if final_step else [SEARCH_PUBMED_TOOL],
+                        system=SYSTEM_PROMPT)
         tokens["input"] += resp.usage.input_tokens
         tokens["output"] += resp.usage.output_tokens
         messages.append({"role": "assistant", "content": resp.content})
