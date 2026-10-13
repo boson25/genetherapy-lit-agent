@@ -1,0 +1,345 @@
+{
+  "wd-01::claude-haiku-4-5-20251001": {
+    "id": "wd-01",
+    "disease": "wilson",
+    "type": "synthesis",
+    "difficulty": "medium",
+    "question": "What are the major challenges in achieving long-term ATP7B expression following AAV-mediated gene therapy for Wilson disease?",
+    "answer": "Based on the retrieved literature, several major challenges in achieving long-term ATP7B expression following AAV-mediated gene therapy for Wilson disease are:\n\n## Packaging Capacity Constraints\n\nThe primary challenge is the size of the full-length ATP7B gene (approximately 4.4-5.2 kb), which exceeds the optimal packaging capacity of AAV vectors [PMID 31668086, PMID 30706949]. This oversizing results in inefficient packaging and low-yield vector production, necessitating the development of truncated or mini-ATP7B variants that are approximately 3.3 kb in length [PMID 31668086].\n\n## Loss of Expression with Hepatocyte Proliferation\n\nA critical long-term challenge is the dilution of episomal AAV genomes due to hepatocyte proliferation, which is particularly problematic in genetic diseases involving liver injury where regeneration occurs [PMID 37707949]. This mechanism causes transgene expression to decline over time. Early neonatal treatment faces the additional complication of vigorous cell proliferation in newborns, which rapidly decreases vector-derived transduction within weeks despite robust initial efficacy [PMID 22098408].\n\n## Neutralizing Antibody Responses\n\nStrategies to improve sustained expression, such as delaying injection age to reduce the dilution effect, unfortunately increase neutralizing antibody (NAb) responses to AAV capsid, creating a trade-off between maintaining expression and avoiding adaptive immune responses [PMID 22098408].\n\nTo overcome these limitations, emerging approaches include split intein technology for dual-AAV co-delivery [PMID 36092366], use of mini-ATP7B variants [PMID 30706949], and nuclease-free genome editing with targeted integration into stable genomic loci [PMID 37707949].",
+    "queries": [
+      "AAV ATP7B Wilson disease gene therapy",
+      "AAV Wilson disease long-term expression challenges"
+    ],
+    "retrieved_pmids": [
+      "16677864",
+      "22098408",
+      "26409215",
+      "30693797",
+      "30706949",
+      "31668086",
+      "35795774",
+      "36092366",
+      "36968157",
+      "37707949",
+      "39056796",
+      "40104154",
+      "41780554"
+    ],
+    "retrieved_records": {
+      "36092366": {
+        "pmid": "36092366",
+        "title": "Full-length ATP7B reconstituted through protein trans-splicing corrects Wilson disease in mice.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2022",
+        "abstract": "Wilson disease (WD) is a genetic disorder of copper homeostasis, caused by deficiency of the copper transporter ATP7B. Gene therapy with recombinant adeno-associated vectors (AAV) holds promises for WD treatment. However, the full-length human ATP7B gene exceeds the limited AAV cargo capacity, hampering the applicability of AAV in this disease context. To overcome this limitation, we designed a dual AAV vector approach using split intein technology. Split inteins catalyze seamless ligation of two separate polypeptides in a highly specific manner. We selected a DnaE intein from Nostoc punctiforme (Npu) that recognizes a specific tripeptide in the human ATP7B coding sequence. We generated two AAVs expressing either the 5'-half of a codon-optimized human ATP7B cDNA followed by the N-terminal Npu DnaE intein or the C-terminal Npu DnaE intein followed by the 3'-half of ATP7B cDNA, under the control of a liver-specific promoter. Intravenous co-injection of the two vectors in wild-type and Atp7b -/- mice resulted in efficient reconstitution of full-length ATP7B protein in the liver. Moreover, Atp7b -/- mice treated with intein-ATP7B vectors were protected from liver damage and showed improvements in copper homeostasis. Taken together, these data demonstrate the efficacy of split intein technology to drive the reconstitution of full-length human ATP7B and to rescue copper-mediated liver damage in Atp7b -/- mice, paving the way to the development of a new gene therapy approach for WD."
+      },
+      "26409215": {
+        "pmid": "26409215",
+        "title": "Long-term metabolic correction of Wilson's disease in a murine model by gene therapy.",
+        "journal": "Journal of hepatology",
+        "year": "2016",
+        "abstract": "BACKGROUND & AIMS: Wilson's disease (WD) is an autosomal recessively inherited copper storage disorder due to mutations in the ATP7B gene that causes hepatic and neurologic symptoms. Current treatments are based on lifelong copper chelating drugs and zinc salts, which may cause side effects and do not restore normal copper metabolism. In this work we assessed the efficacy of gene therapy to treat this condition. METHODS: We transduced the liver of the Atp7b(-/-) WD mouse model with an adeno-associated vector serotype 8 (AAV8) encoding the human ATP7B cDNA placed under the control of the liver-specific \u03b11-antitrypsin promoter (AAV8-AAT-ATP7B). After vector administration we carried out periodic evaluation of parameters associated with copper metabolism and disease progression. The animals were sacrificed 6months after treatment to analyze copper storage and hepatic histology. RESULTS: We observed a dose-dependent therapeutic effect of AAV8-AAT-ATP7B manifested by the reduction of serum transaminases and urinary copper excretion, normalization of serum holoceruloplasmin, and restoration of physiological biliary copper excretion in response to copper overload. The liver of treated animals showed normalization of copper content and absence of histological alterations. CONCLUSIONS: Our data demonstrate that AAV8-AAT-ATP7B-mediated gene therapy provides long-term correction of copper metabolism in a clinically relevant animal model of WD providing support for future translational studies."
+      },
+      "41780554": {
+        "pmid": "41780554",
+        "title": "Preclinical pharmacology and toxicology study of an AAV8-tATP7B vector for Wilson's disease.",
+        "journal": "Clinical and molecular hepatology",
+        "year": "2026",
+        "abstract": "BACKGROUND/AIMS: Wilson's disease (WD) is an autosomal recessive disorder of copper metabolism caused by Atp7b mutations. In this study, a novel gene therapy for WD was developed, and its efficacy and safety were evaluated in relevant animal models. METHODS: Codon-optimized full-length or truncated ATP7B (tATP7B) genes were assembled with liver-specific mini promoters to construct an adeno-associated virus serotype 8 vector (AAV8). The expression and activity of these vectors were evaluated in HepG2 cells. AAV8-tATP7B viral particles were produced using a triple-plasmid cotransfection system under good manufacturing practice conditions. Long-term efficacy was evaluated in Atp7b-/- mice at three doses (5\u00d710\u00b9\u00b9, 5\u00d710\u00b9\u00b2, and 1\u00d710\u00b9\u00b3 vg/kg). Single-dose toxicity was assessed over 13 weeks in Sprague- Dawley rats and cynomolgus macaques. RESULTS: In HepG2 cells, the ability of the tATP7B to export copper was comparable to that of the full-length protein, but the expression efficiency was greater. Alkaline gel electrophoresis confirmed its better compatibility with AAV packaging limits while maintaining genomic integrity, supporting its selection for AAV8-tATP7B production. In a 24- week study in Atp7b-/- mice, AAV8-tATP7B restored copper homeostasis and liver function in a dose-dependent manner and significantly reversed existing liver injury. Toxicity studies in Sprague\u2012Dawley rats and cynomolgus monkeys revealed no systemic toxicity, whereas reversible liver changes were observed in cynomolgus monkeys at high doses; thus, 6\u00d710\u00b9\u00b3 vg/kg was established as the maximum tolerated dose. CONCLUSIONS: These results establish the efficacy and safety profile of AAV8-tATP7B and provide the rationale for its clinical translation in patients with WD."
+      },
+      "40104154": {
+        "pmid": "40104154",
+        "title": "Evaluation of efficacy and safety of AAV8-\u0394C4ATP7B gene therapy in a mutant mouse model of Wilson's disease.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2025",
+        "abstract": "Wilson's disease (WD) is an autosomal recessive disorder caused by pathogenic variants in the ATP7B gene, resulting in the toxic accumulation of copper (Cu). Impaired Cu homeostasis in WD is characterized by low serum ceruloplasmin, excess hepatic Cu, and elevated urinary Cu. WD often presents with hepatic and/or neurological diseases and is fatal if untreated. Adeno-associated virus (AAV)-mediated gene therapy holds promise for WD, but challenges remain in efficacy and safety. Here, we established an Atp7b R780L knockin (KI) mouse model corresponding to the human ATP7B R778L variant and investigated the therapeutic efficacy and safety of liver-targeted AAV8-mediated ATP7B (AAV8-\u0394C4ATP7B) gene therapy in this model. The results demonstrated the Atp7b KI/KI mice recapitulated key features of impaired Cu metabolism in WD but had mild liver disease. Ten-week-old Atp7b KI/KI mice received a single-dose of AAV8-\u0394C4ATP7B and were sacrificed at 8 or 30\u00a0weeks after treatment. Treated Atp7b KI/KI mice showed normalization of serum ceruloplasmin, reduced hepatic Cu, decreased urinary Cu, and reversed liver histopathology. Serum transaminases had a transient increase at 8\u00a0weeks after treatment but returned to normal at 30\u00a0weeks after treatment. These data provide evidence for the efficacy and safety of AAV8-\u0394C4ATP7B in animals, supporting clinical translation to patients with WD."
+      },
+      "39056796": {
+        "pmid": "39056796",
+        "title": "Navigating the CRISPR/Cas Landscape for Enhanced Diagnosis and Treatment of Wilson's Disease.",
+        "journal": "Cells",
+        "year": "2024",
+        "abstract": "The clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated protein (Cas) system continues to evolve, thereby enabling more precise detection and repair of mutagenesis. The development of CRISPR/Cas-based diagnosis holds promise for high-throughput, cost-effective, and portable nucleic acid screening and genetic disease diagnosis. In addition, advancements in transportation strategies such as adeno-associated virus (AAV), lentiviral vectors, nanoparticles, and virus-like vectors (VLPs) offer synergistic insights for gene therapeutics in vivo. Wilson's disease (WD), a copper metabolism disorder, is primarily caused by mutations in the ATPase copper transporting beta (ATP7B) gene. The condition is associated with the accumulation of copper in the body, leading to irreversible damage to various organs, including the liver, nervous system, kidneys, and eyes. However, the heterogeneous nature and individualized presentation of physical and neurological symptoms in WD patients pose significant challenges to accurate diagnosis. Furthermore, patients must consume copper-chelating medication throughout their lifetime. Herein, we provide a detailed description of WD and review the application of novel CRISPR-based strategies for its diagnosis and treatment, along with the challenges that need to be overcome."
+      },
+      "30693797": {
+        "pmid": "30693797",
+        "title": "A Gene Therapy Approach to Improve Copper Metabolism and Prevent Liver Damage in a Mouse Model of Wilson Disease.",
+        "journal": "Human gene therapy. Clinical development",
+        "year": "2019",
+        "abstract": "Wilson disease (WD), an autosomal recessive disease caused by mutations in a copper-transporting P-type ATPase (Atp7b), causes severe liver damage. This disease is currently treated with the lifelong use of copper chelation therapy, which has side effects and does not fix copper metabolism. Here, we thoroughly characterized a mouse model of WD, the toxic milk mouse, and used the model to test a gene therapy approach for treating WD. WD mice accumulated copper in the liver from birth; severe copper accumulation and concurrent liver disease were evident by 2 months of age. Intravenously administering an adeno-associated viral (AAV) 8 vector expressing a codon-optimized version of the human ATP7B transgene into 2-month-old WD mice significantly decreased liver copper levels compared with age-matched, uninjected, WD mice. We also observed a significant dose-dependent decrease in liver disease. Male mice injected with 1011 genome copies of AAV8 vector showed only mild histopathological findings with a complete lack of liver fibrosis. Therefore, we conclude that administering gene therapy at the early stages of disease onset is a promising approach for reducing liver damage and correcting copper metabolism in WD."
+      },
+      "35795774": {
+        "pmid": "35795774",
+        "title": "High value of 64Cu as a tool to evaluate the restoration of physiological copper excretion after gene therapy in Wilson's disease.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2022",
+        "abstract": "Wilson's disease (WD) is an inherited disorder of copper metabolism associated with mutations in ATP7B gene. We have shown that the administration of an adeno-associated vector (AAV) encoding a mini version of human ATP7B (VTX-801) provides long-term correction of copper metabolism in a murine WD model. In preparation of a future clinical trial, we have evaluated by positron emission tomography (PET) the value of 64Cu biodistribution, excretion pattern, and blood kinetics as pharmacodynamic biomarkers of VTX-801 effects. Six-week-old WD mice were injected intravenously with increasing doses of VTX-801 and 3\u00a0weeks or 3\u00a0months later with [64Cu]CuCl2. Untreated WD and wild-type (WT) mice were included as controls. Control WD mice showed increased hepatic 64Cu retention, reduced fecal excretion of the radiotracer, and altered 64Cu blood kinetics (BK) compared with WT mice. VTX-801 treatment in WD mice resulted in a significant reduction of hepatic 64Cu accumulation, the restoration of fecal 64Cu excretion, and the correction of 64Cu BK. This study showed that VTX-801 restores physiological copper metabolism in WD mice, confirming the mechanism of action of VTX-801, and demonstrated the translational potential of [64Cu]CuCl2-PET to explore VTX-801 pharmacodynamics in a minimally invasive and sensitive manner in WD patients."
+      },
+      "31668086": {
+        "pmid": "31668086",
+        "title": "Long-Term Correction of Copper Metabolism in Wilson's Disease Mice with AAV8 Vector Delivering Truncated ATP7B.",
+        "journal": "Human gene therapy",
+        "year": "2019",
+        "abstract": "Wilson's disease (WD) is an autosomal recessive disorder of copper metabolism caused by mutations in the ATP7B gene encoding a liver active copper transport enzyme. Gene therapy with adeno-associated virus (AAV) carrying full-length ATP7B, which is about 4.4\u2009kb, was shown to rescue copper metabolism disorder in WD mouse model. However, due to its relatively large size, the AAV vector containing full-length ATP7B could be oversized for its packaging capacity, which could lead to inefficient packaging. To this purpose, we engineered a truncated ATP7B mutant (tATP7B) that is about 3.3\u2009kb in length and used for AAV gene therapy for WD mice. In vitro test showed that the excretion of copper outside the cells could be achieved with tATP7B as efficient as the full-length ATP7B. In vivo delivery of tATP7B to WD mice by AAV8 vectors corrected their copper metabolisms and significantly rescued copper accumulation-related syndromes, including reduced urinary copper excretion, increased serum ceruloplasmin, and improved liver damages. Thus, our study demonstrated that AAV gene therapy based on truncated ATP7B is a promising strategy in the treatment of WD."
+      },
+      "30706949": {
+        "pmid": "30706949",
+        "title": "Liver Expression of a MiniATP7B Gene Results in Long-Term Restoration of Copper Homeostasis in a Wilson Disease Model in Mice.",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "year": "2019",
+        "abstract": "Gene therapy with an adeno-associated vector (AAV) serotype 8 encoding the human ATPase copper-transporting beta polypeptide (ATP7B) complementary DNA (cDNA; AAV8-ATP7B) is able to provide long-term copper metabolism correction in 6-week-old male Wilson disease (WD) mice. However, the size of the genome (5.2 kilobases [kb]) surpasses the optimal packaging capacity of the vector, which resulted in low-yield production; in addition, further analyses in WD female mice and in animals with a more advanced disease revealed reduced therapeutic efficacy, as compared to younger males. To improve efficacy of the treatment, an optimized shorter AAV vector was generated, in which four out of six metal-binding domains (MBDs) were deleted from the ATP7B coding sequence, giving rise to the miniATP7B protein (\u039457-486-ATP7B). In contrast to AAV8-ATP7B, AAV8-miniATP7B could be produced at high titers and was able to restore copper homeostasis in 6- and 12-week-old male and female WD mice. In addition, a recently developed synthetic AAV vector, AAVAnc80, carrying the miniATP7B gene was similarly effective at preventing liver damage, restoring copper homeostasis, and improving survival 1 year after treatment. Transduction of approximately 20% of hepatocytes was sufficient to normalize copper homeostasis, suggesting that corrected hepatocytes are acting as a sink to eliminate excess of copper. Importantly, administration of AAVAnc80-miniATP7B was safe in healthy mice and did not result in copper deficiency. Conclusion: In summary, gene therapy using an optimized therapeutic cassette in different AAV systems provides long-term correction of copper metabolism regardless of sex or stage of disease in a clinically relevant WD mouse model. These results pave the way for the implementation of gene therapy in WD patients."
+      },
+      "37707949": {
+        "pmid": "37707949",
+        "title": "Genome editing without nucleases confers proliferative advantage to edited hepatocytes and corrects Wilson disease.",
+        "journal": "JCI insight",
+        "year": "2023",
+        "abstract": "Application of classic liver-directed gene replacement strategies is limited in genetic diseases characterized by liver injury due to hepatocyte proliferation, resulting in decline of therapeutic transgene expression and potential genotoxic risk. Wilson disease (WD) is a life-threatening autosomal disorder of copper homeostasis caused by pathogenic variants in copper transporter ATP7B and characterized by toxic copper accumulation, resulting in severe liver and brain diseases. Genome editing holds promise for the treatment of WD; nevertheless, to rescue copper homeostasis, ATP7B function must be restored in at least 25% of the hepatocytes, which surpasses by far genome-editing correction rates. We applied a liver-directed, nuclease-free genome editing approach, based on adeno-associated viral vector-mediated (AAV-mediated) targeted integration of a promoterless mini-ATP7B cDNA into the albumin (Alb) locus. Administration of AAV-Alb-mini-ATP7B in 2 WD mouse models resulted in extensive liver repopulation by genome-edited hepatocytes holding a proliferative advantage over nonedited ones, and ameliorated liver injury and copper metabolism. Furthermore, combination of genome editing with a copper chelator, currently used for WD treatment, achieved greater disease improvement compared with chelation therapy alone. Nuclease-free genome editing provided therapeutic efficacy and may represent a safer and longer-lasting alternative to classic gene replacement strategies for WD."
+      },
+      "22098408": {
+        "pmid": "22098408",
+        "title": "Hepatic gene transfer in neonatal mice by adeno-associated virus serotype 8 vector.",
+        "journal": "Human gene therapy",
+        "year": "2012",
+        "abstract": "For genetic diseases that manifest at a young age with irreversible consequences, early treatment is critical and essential. Neonatal gene therapy has the advantages of achieving therapeutic effects before disease manifestation, a low vector requirement and high vector-to-cell ratio, and a relatively immature immune system. Therapeutic effects or long-term rescue of neonatal lethality have been demonstrated in several animal models. However, vigorous cell proliferation in the newborn stage is a significant challenge for nonintegrating vectors, such as adeno-associated viral (AAV) vector. Slightly delaying the injection age, and readministration at a later time, are two of the alternative strategies to solve this problem. In this study, we demonstrated robust and efficient hepatic gene transfer by self-complementary AAV8 vector in neonatal mice. However, transduction quickly decreased over a few weeks because of vector dilution caused by fast proliferation. Delaying the injection age improved sustained expression, although it also increased neutralizing antibody (NAb) responses to AAV capsid. This approach can be used to treat genetic diseases with slow progression. For genetic diseases with early onset and severe consequences, early treatment is essential. A second injection of vector of a different serotype at a later time may overcome preexisting NAb and achieve sustained therapeutic effects."
+      },
+      "36968157": {
+        "pmid": "36968157",
+        "title": "Gene modification strategies using AO-mediated exon skipping and CRISPR/Cas9 as potential therapies for Duchenne muscular dystrophy patients.",
+        "journal": "Engineering biology",
+        "year": "2020",
+        "abstract": "Duchenne muscular dystrophy (DMD) is an X-linked genetic disease affecting 1 in 5000 young males worldwide annually. Patients experience muscle weakness and loss of ambulation at an early age, with \u223c75% reduced life expectancy. Recently developed genetic editing strategies aim to convert severe DMD phenotypes to a milder disease course. Among these, the antisense oligonucleotide (AO)-mediated exon skipping and the adeno-associated viral-delivered clustered regularly interspaced short palindromic repeat (CRISPR) associated protein 9 (adeno-associated viral (AAV)-delivered CRISPR/Cas9) gene editing have shown promising results in restoring dystrophin protein expression and functionality in skeletal and heart muscle in both animals and human cells in vivo and in vitro. However, therapeutic benefits currently remain unclear. The aim of this review is to compare the potential therapeutic benefits, efficacy, safety, and clinical progress of AO-mediated exon skipping and CRISPR/Cas9 gene-editing strategies. Both techniques have demonstrated therapeutic benefit and long-term efficacy in clinical trials. AAV-delivery of CRISPR/Cas9 may potentially correct disease-causing mutations following a single treatment compared to the required continuous AO/PMO-delivery of exon skipping drugs. The latter has the potential to increase the dystrophin expression in skeletal/heart muscle with sustained effects. However, therapeutic challenges including the need for optimised delivery must be overcome in to advance current clinical data."
+      },
+      "16677864": {
+        "pmid": "16677864",
+        "title": "Long-term correction of ammonia metabolism and prolonged survival in ornithine transcarbamylase-deficient mice following liver-directed treatment with adeno-associated viral vectors.",
+        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+        "year": "2006",
+        "abstract": "The purpose of this study was to determine the efficacy of novel recombinant adeno-associated viral (AAV) vector constructs in correcting metabolic defects in the liver in two strains of ornithine transcarbamylase (OTC)-deficient mice (spf and spf-ash). AAV vectors expressing mouse OTC were produced with capsids from AAV2 and the novel serotypes AAV7, 8, and 9. OTC-deficient mice were infused with these vectors as well as a control AAV2/8 vector expressing LacZ. In vivo activity of OTC was assessed by measuring a surrogate marker, urine orotate. The novel vectors restored orotate levels to virtually normal 15 days after infusion, and each persisted to 1 year posttreatment. Liver OTC enzyme activity in spf mice was substantially higher in animals receiving novel vectors compared to those receiving AAV2 vectors. Animals receiving novel OTC-expressing vectors lived longer than those treated with AAV2 OTC or untreated controls, and they were tolerant to a challenge with NH3 at 21 days and beyond, which caused severe morbidity in control OTC-deficient animals. Numerous mice, representative of all treatment groups followed for +250 days, were observed to have either nodules or discrete tumors in the liver, the etiology of which is the subject of a companion paper."
+      }
+    },
+    "cited_pmids": [
+      "22098408",
+      "30706949",
+      "31668086",
+      "36092366",
+      "37707949"
+    ],
+    "ungrounded_pmids": [],
+    "n_searches": 2,
+    "tokens": {
+      "input": 7012,
+      "output": 579
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "wd-02::claude-haiku-4-5-20251001": {
+    "id": "wd-02",
+    "disease": "wilson",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "How does the timing of gene therapy administration affect the reversal of hepatic copper accumulation and liver damage?",
+    "answer": "Based on my search of available PubMed literature, I found limited direct evidence specifically addressing how gene therapy timing affects hepatic copper accumulation reversal. However, the retrieved literature does provide relevant insights:\n\n**Gene Therapy Efficacy in Animal Models**\n\nRecent AAV gene therapy studies demonstrate that liver-directed therapy can successfully reverse copper-related pathology. In a mouse model study [PMID 40104154], 10-week-old mice treated with a single dose of AAV8-\u0394C4ATP7B showed normalization of serum ceruloplasmin, reduced hepatic copper, decreased urinary copper, and reversed liver histopathology over 30 weeks post-treatment. The study noted that serum transaminases transiently increased at 8 weeks but normalized by 30 weeks, indicating time-dependent restoration of copper homeostasis.\n\n**Importance of Early Intervention**\n\nWhile specific timing comparisons for gene therapy are not detailed in available abstracts, the broader Wilson disease literature emphasizes that earlier intervention generally improves outcomes. One clinical case report [PMID 24864473] demonstrated that a sister diagnosed at the preclinical stage was expected to have good prognosis with timely treatment, compared to another sister diagnosed at decompensated cirrhosis who achieved complete remission but still had advanced disease. This suggests timing of any intervention\u2014including future gene therapy\u2014relative to disease stage likely matters significantly.\n\nUnfortunately, the retrieved abstracts do not provide comparative data on how early versus late gene therapy administration specifically affects the kinetics of copper removal or reversibility of established fibrosis and cirrhosis.",
+    "queries": [
+      "gene therapy copper accumulation liver timing",
+      "Wilson disease gene therapy hepatic copper reversal",
+      "AAV gene therapy Wilson disease timing disease progression reversal",
+      "early intervention gene therapy copper metabolism liver damage prevention"
+    ],
+    "retrieved_pmids": [
+      "16932613",
+      "17584039",
+      "18307400",
+      "19021531",
+      "21380607",
+      "21593220",
+      "21901655",
+      "24864473",
+      "30703747",
+      "36012580",
+      "36900037",
+      "37184530",
+      "40104154",
+      "41095721",
+      "42668699"
+    ],
+    "retrieved_records": {
+      "37184530": {
+        "pmid": "37184530",
+        "title": "Wilson disease: a summary of the updated AASLD Practice Guidance.",
+        "journal": "Hepatology communications",
+        "year": "2023",
+        "abstract": "Wilson disease (WD) is caused by autosomal variants affecting the ATP7B gene on chromosome 13, resulting in alterations in physiological copper homeostasis and copper accumulation. Excess copper clinically manifests in many organs, most often in the central nervous system and liver, ultimately causing cirrhosis and death. Often considered a pediatric or young adult disease, WD actually affects patients of all ages, and aging patients need to be regularly managed with long-term follow-up. Despite over a century of advances in diagnosis and treatment, WD is still associated with diagnostic challenges and considerable disability and death, in part due to delays in diagnosis and limitations in treatment. Standard-of-care treatments are considered generally effective when the diagnosis is timely but are also limited by efficacy, safety concerns, multiple daily dosing, and adherence. This expert perspective review seeks to facilitate improvements in the awareness, understanding, diagnosis, and management of WD. The objectives are to provide a full overview of WD and streamline updated diagnosis and treatment guidance, as recently published by the American Association for the Study of Liver Diseases, in a practical way for clinical use."
+      },
+      "21380607": {
+        "pmid": "21380607",
+        "title": "Systems biology approach to Wilson's disease.",
+        "journal": "Biometals : an international journal on the role of metal ions in biology, biochemistry, and medicine",
+        "year": "2011",
+        "abstract": "Wilson's disease (WD) is a severe disorder of copper misbalance, which manifests with a wide spectrum of liver pathology and/or neurologic and psychiatric symptoms. WD is caused by mutations in a gene encoding a copper-transporting ATPase ATP7B and is accompanied by accumulation of copper in tissues, especially in the liver. Copper-chelation therapy is available for treatment of WD symptoms and is often successful, however, significant challenges remain with respect to timely diagnostics and treatment of the disease. The lack of genotype-phenotype correlation remains unexplained, the causes of fulminant liver failure are not known, and the treatment of neurologic symptoms is only partially successful, underscoring the need for better understanding of WD mechanisms and factors that influence disease manifestations. Recent gene and protein profiling studies in animal models of WD began to uncover cellular processes that are primarily affected by copper accumulation in the liver. The results of such studies, summarized in this review, revealed new molecular players and pathways (cell cycle and cholesterol metabolism, mRNA splicing and nuclear receptor signaling) linked to copper misbalance. A systems biology approach promises to generate a comprehensive view of WD onset and progression, thus helping with a more fine-tune treatment and monitoring of the disorder."
+      },
+      "19021531": {
+        "pmid": "19021531",
+        "title": "Atp7b-/- mice as a model for studies of Wilson's disease.",
+        "journal": "Biochemical Society transactions",
+        "year": "2008",
+        "abstract": "Wilson's disease is a severe human disorder of copper homoeostasis. The disease is associated with various mutations in the ATP7B gene that encodes a copper-transporting ATPase, and a massive accumulation of copper in the liver and several other tissues. The most frequent disease manifestations include a wide spectrum of liver pathologies as well as neurological and psychiatric abnormalities. A combination of copper chelators and zinc therapy has been used to prevent disease progression; however, accurate and timely diagnosis of the disease remains challenging. Similarly, side effects of treatments are common. To understand better the biochemical and cellular basis of Wilson's disease, several animal models have been developed. This review focuses on genetically engineered Atp7b(-/-) mice and describes the properties of these knockout animals, insights into the disease progression generated using Atp7b(-/-) mice, as well as advantages and limitations of Atp7b(-/-) mice as an experimental model for Wilson's disease."
+      },
+      "42668699": {
+        "pmid": "42668699",
+        "title": "Diagnostic challenges and mimicking disorders of Wilson's Disease: A comprehensive review.",
+        "journal": "Caspian journal of internal medicine",
+        "year": "2026",
+        "abstract": "Wilson disease is classically defined as an autosomal recessive disorder of copper metabolism that leads to neurological and hepatic dysfunction. It is one of the most prevalent genetic liver disorders caused by pathogenic mutations in the ATP7B gene, leading to defective copper transport and toxic accumulation in tissues. Without timely diagnosis and appropriate treatment, Wilson disease can progress to life-threatening hepatic failure and severe neurological impairment, ultimately resulting in death. Clinically, Wilson disease exhibits marked phenotypic heterogeneity, presenting with a wide spectrum of hepatic, neurological, and psychiatric symptoms. Differential diagnosis can be complicated by other inherited metabolic disorders with overlapping clinical and biochemical features, collectively referred to as Wilson's mimicry disease. These disorders may contribute to diagnostic uncertainty, potentially delaying the identification of Wilson disease and timely initiation of effective therapy. In this review, we collated pertinent information on Wilson disease and its related differential diagnoses based on a broad review of the scientific literature. Our findings highlight disorders that closely mimic Wilson disease clinically and biochemically, outlining their distinguishing clinical, biochemical, and genetic features, which can be differentiated through specific diagnostic markers and genetic testing. Enhancing awareness and understanding of these entities is essential to improve diagnostic accuracy in pediatric neurology and hepatology."
+      },
+      "41095721": {
+        "pmid": "41095721",
+        "title": "Molecular Characterization of Wilson's Disease in Liver Transplant Patients: A Five-Year Single-Center Experience in Iran.",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "year": "2025",
+        "abstract": "Background/Objectives: Wilson's disease (WD) is an autosomal recessive disorder characterized by pathological copper accumulation, primarily in the liver and brain. Severe hepatic involvement can be effectively treated with liver transplantation (LT). Geographic variation in ATP7B mutations suggests the presence of regional patterns that may impact disease presentation and management. This study aims to investigate the genetic basis of WD in patients from a major LT center in Iran. Methods: A retrospective analysis was conducted on clinical, biochemical, and pathological data from patients suspected of WD who underwent evaluation for LT between May 2020 and June 2025 at Shiraz University of Medical Sciences. Genetic testing was carried out on 20 patients at the Shiraz Transplant Research Center (STRC). Direct mutation analysis of ATP7B was performed for all patients, and the results correlated with clinical and demographic information. Results: In total, 20 WD patients who underwent liver transplantation (15 males, 5 females) carried 25 pathogenic or likely pathogenic ATP7B variants, 21 of which were previously unreported. Fifteen patients were homozygous, and five were compound-heterozygous; all heterozygous combinations occurred in the offspring of second-degree consanguineous unions. Recurrent changes included p.L549V, p.V872E, and p.P992S/L, while two nonsense variants (p.E1293X, p.R1319X) predicted truncated proteins. Variants were distributed across copper-binding, transmembrane, phosphorylation, and ATP-binding domains, and in silico AlphaMissense scores indicate damaging effects for most novel substitutions. Post-LT follow-up showed biochemical normalization in the majority of recipients, with five deaths recorded during the study period. Conclusions: This single-center Iranian study reveals a highly heterogeneous ATP7B mutational landscape with a large proportion of novel population-specific variants and underscores the benefit of comprehensive gene sequenc"
+      },
+      "24864473": {
+        "pmid": "24864473",
+        "title": "[Wilson-Konovalov disease in 3 sisters: a radical change in prognosis if timely diagnosed].",
+        "journal": "Terapevticheskii arkhiv",
+        "year": "2014",
+        "abstract": "Wilson-Konovalov disease is a rare autosomal recessive genetic disorder in which copper accumulates in the liver, brain and other target organs. The paper describes a family case of the abdominal form of the disease in three sisters, the eldest of them died from fulminant liver failure at the age of 18 years. The second sister aged 16 years was diagnosed as having the disease at the stage of decompensated liver cirrhosis; her treatment with D-penicillamine resulted in complete disease remission. The youngest sister was diagnosed with the disease at the preclinical stage, which could expect its good prognosis. However, the patient's refusal of treatment led to death from liver failure. This case demonstrates the importance of timely diagnosis and the possibility of dramatic improvement in prognosis even at the stage of decompensated liver cirrhosis."
+      },
+      "36900037": {
+        "pmid": "36900037",
+        "title": "Neurological Wilson's Disease Signs-Hepatic Encephalopathy or Copper Toxicosis?",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "year": "2023",
+        "abstract": "Wilson's disease (WD) is a rare autosomal recessive (AR) disorder resulting from mutations in the ATP7B gene, which is responsible for the encryption of transmembrane copper transporting ATPase. The symptomatic presentation of the disease is estimated to be about 1 in 30,000. The impairment of ATP7B function results in a copper overload in hepatocytes, which further leads to liver pathology. This copper overload also occurs in other organs, most particularly in the brain. This could then cause the occurrence of neurological and psychiatric disorders. Symptoms differ substantially and most often occur between the ages of 5 and 35 years. Early symptoms are commonly hepatic, neurological, or psychiatric. While disease presentation is most often asymptomatic, it could also range as far as to include fulminant hepatic failure, ataxia, and cognitive disorders. Various treatments are available for Wilson's disease, including chelation therapy and zinc salts, which can reverse copper overload through different mechanisms. In select cases, liver transplantation is recommended. New medications, such as tetrathiomolybdate salts, are currently being investigated in clinical trials. With prompt diagnosis and treatment, prognosis is favorable; however, diagnosing patients before the onset of severe symptoms is a significant concern. Early screening for WD could help in diagnosing patients earlier and improving treatment outcomes."
+      },
+      "17584039": {
+        "pmid": "17584039",
+        "title": "Perspectives for gene therapy of Wilson disease.",
+        "journal": "Current gene therapy",
+        "year": "2007",
+        "abstract": "Wilson disease is a rare autosomal-recessive copper overload disorder due to mutations of the Wilson disease gene ATP7B. The disease typically manifests at late childhood or in young adults with hepatic and/or neurological symptoms. Being fatal without medical treatment or liver transplantation the long-term outcome of Wilson disease depends on the adherence to an effective treatment. Because current medical treatment options are not effective in all Wilson disease patients and adherence to therapy is a problem, gene therapy might represent an alternative curative future therapy. In the rat model of Wilson disease adenoviral and lentiviral gene transfer studies could prove that viral gene transfer is therapeutically effective and can reverse clinical symptoms. However, both approaches were limited by a more or less transient transgene expression. As several tactics can be used to overcome these current limitations, gene therapy approaches may become more efficient than standard medical treatment for Wilson disease in the future. This review discusses both, existing vectors and strategies and prospective developments towards liver-directed gene therapy, although there is still a long way to go until gene therapy can be used for safe treatment of Wilson disease in humans."
+      },
+      "30703747": {
+        "pmid": "30703747",
+        "title": "Liver pathology in Wilson's disease: From copper overload to cirrhosis.",
+        "journal": "Journal of inorganic biochemistry",
+        "year": "2019",
+        "abstract": "Wilson's disease (WD) is a genetic metabolic disease strictly associated with liver cirrhosis. In this review, the genetic bases of the disease are discussed, with emphasis on the role of ATP7B (the Wilson disease protein) dysfunction as a determinant factor of systemic copper overload. Regarding the different multiple mutations described in WD patients, the peculiarity of Sardinian population is highlighted, Sardinians carrying a rare deletion in the promoter (5' UTR) of the WD gene. The role of epigenetic changes in the clinical presentation and evolution of liver disease in WD patients is also discussed, nutrition probably representing a relevantly risk factor in WD patients. The role of transmission electron microscopy in the diagnosis of WD-related liver disease is underlined. Mitochondrial changes, increased peroxisomes fat droplets, lipolysosomes and intranuclear glycogen inclusions are reported as the most frequent ultrastructural changes in the liver of WD carriers. The role of histochemical stains for copper is analyzed, and the Timm's method is suggested as the most sensitive one for revealing hepatic copper overload in all stage of WD. The marked variability of the histological liver changes occurring in WD is underlined simple steatosis may represent the only pathological changes, frequently associated with glycogenated nuclei. Mallory-Denk bodies lipogranulomas alcoholic and non-alcoholic fatty liver disease ending with bridging fibrosis and cirrhosis. Finally, the reversal of fibrosis as a possible therapeutic objective in WD is discussed."
+      },
+      "16932613": {
+        "pmid": "16932613",
+        "title": "Wilson's disease: an update.",
+        "journal": "Nature clinical practice. Neurology",
+        "year": "2006",
+        "abstract": "Wilson's disease (WD) is an inborn error of copper metabolism caused by a mutation to the copper-transporting gene ATP7B. The disease has an autosomal recessive mode of inheritance, and is characterized by excessive copper deposition, predominantly in the liver and brain. Diagnosis of the condition depends primarily on clinical features, biochemical parameters and the presence of the Kayser-Fleischer ring, and a new diagnostic scoring system has recently been proposed. Mutations in ATP7B can occur anywhere along the entire 21 exons, which makes the identification of gene defects particularly challenging. Identification of carriers and presymptomatic family members of affected individuals is achieved by polymerase-chain-reaction-based marker analysis. The traditional treatment for WD is based on copper chelation with agents such as D-penicillamine, but use of this drug has been questioned because of reported side effects. The use of agents such as trientine and ammonium tetrathiomolybdate has been advocated, although results of long-term trials are awaited. In selected cases, orthotropic hepatic transplantation can reverse the basic metabolic abnormality in WD and improve both hepatic and neurological symptoms. Studies of the underlying defects in ATP7B and its suspected modifiers ATOX1 and COMMD1 are expected to unravel the disease's genotype-phenotype correlation, and should lead to the design of improved drugs for ameliorating the suffering of patients."
+      },
+      "36012580": {
+        "pmid": "36012580",
+        "title": "The Role of Zinc in the Treatment of Wilson's Disease.",
+        "journal": "International journal of molecular sciences",
+        "year": "2022",
+        "abstract": "Wilson's disease (WD) is a hereditary disorder of copper metabolism, producing abnormally high levels of non-ceruloplasmin-bound copper, the determinant of the pathogenic process causing brain and hepatic damage and dysfunction. Although the disease is invariably fatal without medication, it is treatable and many of its adverse effects are reversible. Diagnosis is difficult due to the large range and severity of symptoms. A high index of suspicion is required as patients may have only a few of the many possible biomarkers. The genetic prevalence of ATP7B variants indicates higher rates in the population than are currently diagnosed. Treatments have evolved from chelators that reduce stored copper to zinc, which reduces the toxic levels of circulating non-ceruloplasmin-bound copper. Zinc induces intestinal metallothionein, which blocks copper absorption and increases excretion in the stools, resulting in an improvement in symptoms. Two meta-analyses and several large retrospective studies indicate that zinc is equally effective as chelators for the treatment of WD, with the advantages of a very low level of toxicity and only the minor side effect of gastric disturbance. Zinc is recommended as a first-line treatment for neurological presentations and is gaining acceptance for hepatic presentations. It is universally recommended for lifelong maintenance therapy and for presymptomatic WD."
+      },
+      "21901655": {
+        "pmid": "21901655",
+        "title": "Wilson disease: pathogenesis and clinical considerations in diagnosis and treatment.",
+        "journal": "Seminars in liver disease",
+        "year": "2011",
+        "abstract": "Nearly a century after Dr. Samuel Alexander Kinnier Wilson composed his doctoral thesis on the pathologic findings of \"lenticular degeneration\" in the brain associated with cirrhosis of the liver we know that the underlying molecular basis for this autosomal recessive inherited disorder that now bears his name is mutation of a copper transporting ATPase, ATP7B, an intracellular copper transporter mainly expressed in hepatocytes. Loss of ATP7B function is the basis for reduced hepatic biliary copper excretion and reduced incorporation of copper into ceruloplasmin. During the intervening years, there was recognition of the clinical signs, histologic, biochemical features, and mutation analysis of ATP7B that characterize and enable diagnosis of this disorder. These include the presence of signs of liver or neurologic disease and detection of Kayser-Fleischer rings, low ceruloplasmin, elevated urine and hepatic copper, and associated histologic changes in the liver. Medical therapies and liver transplantation can effectively treat patients with this once uniformly fatal disorder. The earlier detection of the disease led to the initiation of treatment to prevent disease progression and reverse pathologic findings if present, and family screening to detect the disorder in first-degree relatives is warranted. Gene therapy and hepatocyte cell transplantation for Wilson disease has only been tested in animal models but represent future areas for study. Despite all the advances we still have to consider the diagnosis of Wilson disease to test patients for this disorder and properly establish the diagnosis before committing to life-long treatment."
+      },
+      "40104154": {
+        "pmid": "40104154",
+        "title": "Evaluation of efficacy and safety of AAV8-\u0394C4ATP7B gene therapy in a mutant mouse model of Wilson's disease.",
+        "journal": "Molecular therapy. Methods & clinical development",
+        "year": "2025",
+        "abstract": "Wilson's disease (WD) is an autosomal recessive disorder caused by pathogenic variants in the ATP7B gene, resulting in the toxic accumulation of copper (Cu). Impaired Cu homeostasis in WD is characterized by low serum ceruloplasmin, excess hepatic Cu, and elevated urinary Cu. WD often presents with hepatic and/or neurological diseases and is fatal if untreated. Adeno-associated virus (AAV)-mediated gene therapy holds promise for WD, but challenges remain in efficacy and safety. Here, we established an Atp7b R780L knockin (KI) mouse model corresponding to the human ATP7B R778L variant and investigated the therapeutic efficacy and safety of liver-targeted AAV8-mediated ATP7B (AAV8-\u0394C4ATP7B) gene therapy in this model. The results demonstrated the Atp7b KI/KI mice recapitulated key features of impaired Cu metabolism in WD but had mild liver disease. Ten-week-old Atp7b KI/KI mice received a single-dose of AAV8-\u0394C4ATP7B and were sacrificed at 8 or 30\u00a0weeks after treatment. Treated Atp7b KI/KI mice showed normalization of serum ceruloplasmin, reduced hepatic Cu, decreased urinary Cu, and reversed liver histopathology. Serum transaminases had a transient increase at 8\u00a0weeks after treatment but returned to normal at 30\u00a0weeks after treatment. These data provide evidence for the efficacy and safety of AAV8-\u0394C4ATP7B in animals, supporting clinical translation to patients with WD."
+      },
+      "21593220": {
+        "pmid": "21593220",
+        "title": "Rescue of ATP7B function in hepatocyte-like cells from Wilson's disease induced pluripotent stem cells using gene therapy or the chaperone drug curcumin.",
+        "journal": "Human molecular genetics",
+        "year": "2011",
+        "abstract": "Directed hepatocyte differentiation from human induced pluripotent stem cells (iPSCs) potentially provides a unique platform for modeling liver genetic diseases and performing drug-toxicity screening in vitro. Wilson's disease is a genetic disease caused by mutations in the ATP7B gene, whose product is a liver transporter protein responsible for coordinated copper export into bile and blood. Interestingly, the spectrum of ATP7B mutations is vast and can influence clinical presentation (a variable spectrum of hepatic and neural manifestations), though the reason is not well understood. We describe the generation of iPSCs from a Chinese patient with Wilson's disease that bears the R778L Chinese hotspot mutation in the ATP7B gene. These iPSCs were pluripotent and could be readily differentiated into hepatocyte-like cells that displayed abnormal cytoplasmic localization of mutated ATP7B and defective copper transport. Moreover, gene correction using a self-inactivating lentiviral vector that expresses codon optimized-ATP7B or treatment with the chaperone drug curcumin could reverse the functional defect in vitro. Hence, our work describes an attractive model for studying the pathogenesis of Wilson's disease that is valuable for screening compounds or gene therapy approaches aimed to correct the abnormality. In the future, once relevant safety concerns (including the stability of the mature liver-like phenotype) and technical issues for the transplantation procedure are solved, hepatocyte-like cells from similarly genetically corrected iPSCs could be an option for autologous transplantation in Wilson's disease."
+      },
+      "18307400": {
+        "pmid": "18307400",
+        "title": "Development of cell therapy strategies to overcome copper toxicity in the LEC rat model of Wilson disease.",
+        "journal": "Regenerative medicine",
+        "year": "2008",
+        "abstract": "AIMS: Therapeutic replacement of organs with healthy cells requires disease-specific strategies. As copper toxicosis due to ATP7B deficiency in Wilson disease produces significant liver injury, disease-specific study of transplanted cell proliferation will offer insights into cell and gene therapy mechanisms. MATERIALS & METHODS: We used Long-Evans Cinnamon (LEC) rats to demonstrate the effects of liver preconditioning with radiation and ischemia reperfusion, followed by transplantation of healthy Long-Evans Agouti rat hepatocytes and analysis of hepatic atp7b mRNA, bile copper, liver copper and liver histology. RESULTS: LEC rats without cell therapy or after transplantation of healthy cells without liver conditioning accumulated copper and showed liver disease during the study period. Liver conditioning incorporating hepatic radiation promoted transplanted cell proliferation and reversed Wilson disease parameters, although with interindividual variations and time lags for improvement, which were different from previous results of liver repopulation in healthy animals. CONCLUSION: Cell therapy will correct genetic disorders characterized by organ damage. However, suitable mechanisms for inducing transplanted cell proliferation will be critical for therapeutic success."
+      }
+    },
+    "cited_pmids": [
+      "24864473",
+      "40104154"
+    ],
+    "ungrounded_pmids": [],
+    "n_searches": 4,
+    "tokens": {
+      "input": 13290,
+      "output": 677
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "wd-03::claude-haiku-4-5-20251001": {
+    "id": "wd-03",
+    "disease": "wilson",
+    "type": "factual",
+    "difficulty": "medium",
+    "question": "What are the advantages and limitations of using truncated ATP7B constructs compared with full-length ATP7B for AAV-mediated gene delivery?",
+    "answer": "Based on the PubMed literature, here are the key advantages and limitations of truncated ATP7B compared with full-length ATP7B for AAV-mediated gene delivery:\n\n**Advantages of Truncated ATP7B:**\n\nThe primary advantage is improved AAV packaging efficiency. Full-length ATP7B is approximately 4.4 kb, which approaches or exceeds the ~4.7 kb packaging limit of AAV vectors [PMID 31668086]. The truncated version (tATP7B) is approximately 3.3 kb, providing better compatibility with AAV packaging constraints while maintaining genomic integrity [PMID 41780554]. Despite the reduction in size, in vitro studies demonstrated that tATP7B achieves copper excretion efficiency comparable to full-length ATP7B [PMID 31668086, PMID 41780554]. In vivo mouse studies confirmed that tATP7B corrected copper metabolism, increased serum ceruloplasmin, and improved liver damage [PMID 31668086]. Notably, truncated constructs also showed greater expression efficiency in HepG2 cells than full-length versions [PMID 41780554].\n\n**Limitations:**\n\nThe primary limitation is potential loss of functional domains. While truncation maintains the critical copper transport function, removing sequences from the full-length protein could theoretically compromise secondary functions, cellular localization, or long-term stability. The literature does not provide detailed information about which domains are retained or deleted in truncated constructs, nor does it address potential long-term functional differences between the two approaches. The use of full-length ATP7B, while packaging-constrained, may offer broader therapeutic benefits if all encoded domains are functionally important for sustained copper homeostasis.",
+    "queries": [
+      "truncated ATP7B AAV gene therapy",
+      "ATP7B packaging size AAV limitations",
+      "full-length ATP7B Wilson disease gene transfer"
+    ],
+    "retrieved_pmids": [
+      "22158007",
+      "31668086",
+      "41083009",
+      "41780554"
+    ],
+    "retrieved_records": {
+      "41780554": {
+        "pmid": "41780554",
+        "title": "Preclinical pharmacology and toxicology study of an AAV8-tATP7B vector for Wilson's disease.",
+        "journal": "Clinical and molecular hepatology",
+        "year": "2026",
+        "abstract": "BACKGROUND/AIMS: Wilson's disease (WD) is an autosomal recessive disorder of copper metabolism caused by Atp7b mutations. In this study, a novel gene therapy for WD was developed, and its efficacy and safety were evaluated in relevant animal models. METHODS: Codon-optimized full-length or truncated ATP7B (tATP7B) genes were assembled with liver-specific mini promoters to construct an adeno-associated virus serotype 8 vector (AAV8). The expression and activity of these vectors were evaluated in HepG2 cells. AAV8-tATP7B viral particles were produced using a triple-plasmid cotransfection system under good manufacturing practice conditions. Long-term efficacy was evaluated in Atp7b-/- mice at three doses (5\u00d710\u00b9\u00b9, 5\u00d710\u00b9\u00b2, and 1\u00d710\u00b9\u00b3 vg/kg). Single-dose toxicity was assessed over 13 weeks in Sprague- Dawley rats and cynomolgus macaques. RESULTS: In HepG2 cells, the ability of the tATP7B to export copper was comparable to that of the full-length protein, but the expression efficiency was greater. Alkaline gel electrophoresis confirmed its better compatibility with AAV packaging limits while maintaining genomic integrity, supporting its selection for AAV8-tATP7B production. In a 24- week study in Atp7b-/- mice, AAV8-tATP7B restored copper homeostasis and liver function in a dose-dependent manner and significantly reversed existing liver injury. Toxicity studies in Sprague\u2012Dawley rats and cynomolgus monkeys revealed no systemic toxicity, whereas reversible liver changes were observed in cynomolgus monkeys at high doses; thus, 6\u00d710\u00b9\u00b3 vg/kg was established as the maximum tolerated dose. CONCLUSIONS: These results establish the efficacy and safety profile of AAV8-tATP7B and provide the rationale for its clinical translation in patients with WD."
+      },
+      "31668086": {
+        "pmid": "31668086",
+        "title": "Long-Term Correction of Copper Metabolism in Wilson's Disease Mice with AAV8 Vector Delivering Truncated ATP7B.",
+        "journal": "Human gene therapy",
+        "year": "2019",
+        "abstract": "Wilson's disease (WD) is an autosomal recessive disorder of copper metabolism caused by mutations in the ATP7B gene encoding a liver active copper transport enzyme. Gene therapy with adeno-associated virus (AAV) carrying full-length ATP7B, which is about 4.4\u2009kb, was shown to rescue copper metabolism disorder in WD mouse model. However, due to its relatively large size, the AAV vector containing full-length ATP7B could be oversized for its packaging capacity, which could lead to inefficient packaging. To this purpose, we engineered a truncated ATP7B mutant (tATP7B) that is about 3.3\u2009kb in length and used for AAV gene therapy for WD mice. In vitro test showed that the excretion of copper outside the cells could be achieved with tATP7B as efficient as the full-length ATP7B. In vivo delivery of tATP7B to WD mice by AAV8 vectors corrected their copper metabolisms and significantly rescued copper accumulation-related syndromes, including reduced urinary copper excretion, increased serum ceruloplasmin, and improved liver damages. Thus, our study demonstrated that AAV gene therapy based on truncated ATP7B is a promising strategy in the treatment of WD."
+      },
+      "41083009": {
+        "pmid": "41083009",
+        "title": "Hepatocyte-targeted lipid nanoparticle for full-length ATP7B mRNA delivery in Wilson disease.",
+        "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+        "year": "2025",
+        "abstract": "Wilson disease (WD), a copper metabolism disorder caused by ATP7B mutations, requires alternative gene therapies due to the limitations of current treatments such as drug resistance and side effects. Here, we developed a hepatocyte-targeted ATP7B mRNA therapeutic system using a low immunoreactivity lipid nanoparticle (LNP), in which hydroxy-terminated polyethylene glycol lipid (OH-PEG) was utilized to evade human pre-existing anti-PEG antibody recognition and reduce immunogenicity compared with methoxy-terminated polyethylene glycol lipid (MeO-PEG). By optimizing the OH-PEG molar ratio at 3\u00a0%, LNP-mediated mRNA expression in hepatocytes increased twofold, while non-target cell expression (Kupffer cells, B cells) decreased by 2 to 6 folds. In vitro studies confirmed ATP7B protein localization to the trans-Golgi network and copper transport functionality. In WD model mice, long-term intervention (6\u00a0months) induced reductions in hepatic copper accumulation (up to 72.1\u00a0%) in a dose-dependent manner, restored multi-organ copper homeostasis, and normalized ceruloplasmin activity. Safety assessments revealed improved serum biochemical parameters and histopathology, with 95\u00a0% of ionizable lipid metabolically cleared within one week after treatment, without allergic reactions or organ toxicity. This study establishes a translatable WD gene therapy platform using a hepatocyte-targeted, low immunoreactivity LNP for full-length ATP7B mRNA delivery, which also serves as an mRNA delivery system for other liver diseases."
+      },
+      "22158007": {
+        "pmid": "22158007",
+        "title": "Early gestational gene transfer with targeted ATP7B expression in the liver improves phenotype in a murine model of Wilson's disease.",
+        "journal": "Gene therapy",
+        "year": "2012",
+        "abstract": "The ideal gene therapy for metabolical liver disorders would target hepatocytes before the onset of disease and be durable, non-toxic and non-immunogenic. Early gestational gene transfer can achieve such goals. Here, we demonstrate that prenatal gene transfer of human Atp7b reduces liver pathology and improves biochemical markers in Atp7b(-/-) mice, a murine model of Wilson's disease (WD). Following prenatal injection of lentivirus vector containing the human Atp7b gene under the transcriptional control of a liver-specific promoter, the full-length ATP7B was detectable in mouse livers for the entire duration of experiments (20 weeks after birth). In contrast to a marked pathology in non-injected animals, livers from age-matched treated mice consistently demonstrated normal gross and histological morphology. Hepatic copper content was decreased in the majority of treated mice, although remaining copper levels varied. Improvement of hepatic copper metabolism was further apparent from the presence of copper-bound ceruloplasmin in the sera and normalization of the mRNA levels for HMG CoA-reductase. With this approach, the complete loss of copper transport function can be ameliorated, as evident from phenotypical improvement in treated Atp7b(-/-) mice. This study provides proof of principle for in utero gene therapy in WD and other liver-based enzyme deficiencies."
+      }
+    },
+    "cited_pmids": [
+      "31668086",
+      "41780554"
+    ],
+    "ungrounded_pmids": [],
+    "n_searches": 3,
+    "tokens": {
+      "input": 3921,
+      "output": 618
+    },
+    "model": "claude-haiku-4-5-20251001"
+  }
+}

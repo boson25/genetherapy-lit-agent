@@ -15,8 +15,8 @@ Rules:
 - If the retrieved abstracts don't answer the question, say so plainly.
 - Be concise: 1-3 short paragraphs."""
 
-MAX_SEARCHES = 3   # cap tool calls per question (prevents runaway loops and saves cost)
-MAX_STEPS = 6      # hard cap on model calls per question
+MAX_SEARCHES = 8   # cap tool calls per question (prevents runaway loops and saves cost)
+MAX_STEPS = 4      # hard cap on model calls per question
 
 
 def run_tool(name: str, args: dict) -> tuple[str, list[dict]]:
@@ -61,6 +61,7 @@ def answer(question: str, verbose: bool = True) -> dict:
                 "answer": text,
                 "queries": queries,
                 "retrieved_pmids": sorted(retrieved),
+                "retrieved_records": retrieved, 
                 "cited_pmids": sorted(cited),
                 "ungrounded_pmids": sorted(cited - set(retrieved)),  # cited but never retrieved
                 "n_searches": n_searches,
@@ -89,6 +90,7 @@ def answer(question: str, verbose: bool = True) -> dict:
 
     return {"question": question, "answer": "Stopped: step limit reached.",
             "queries": queries, "retrieved_pmids": sorted(retrieved),
+            "retrieved_records": retrieved,
             "cited_pmids": [], "ungrounded_pmids": [], "n_searches": n_searches,
             "tokens": tokens, "model": MODEL}
 
