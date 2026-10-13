@@ -37,11 +37,12 @@ PRICE_PER_MTOK = {"input": 1.00, "output": 5.00}
 # Phrases that suggest the agent declined rather than fabricating an answer.
 # A heuristic only — the verdict column in review.csv is the real check.
 REFUSAL_PATTERNS = [
-    r"\bno (?:fda[- ]approved|approved|published|such|evidence|data|information)\b",
-    r"\b(?:could not|couldn't|was unable to|cannot) find\b",
+    r"\b(?:no|not) (?:fda[- ]approved|approved|published|such|evidence|data|information)\b",
+    r"\b(?:unable to|could not|couldn't|cannot|can't|did not|didn't) find\b",
     r"\bdo(?:es)? not (?:appear|exist|support|contain)\b",
-    r"\bnot (?:available|established|approved|supported)\b",
+    r"\bnot (?:available|established|approved|supported|indexed)\b",
     r"\bno (?:results|abstracts|studies|guidelines)\b",
+    r"\bmay not (?:yet )?(?:be|exist)\b",
     r"\bpremise\b",
 ]
 
